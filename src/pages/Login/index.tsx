@@ -35,7 +35,7 @@ const LoginPage = () => {
           <Title>
             <Welcomeback>Welcome back!</Welcomeback>
           </Title>
-          <ViceriForm>
+          <ViceriForm layout="vertical">
             <InputFormItem
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
               name="e-mail"
