@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { useNavigate } from 'react-router-dom';
 import { Typography } from 'antd';
 import GenericInput from '../../components/Input';
 import GenericCodeButton from '../../components/Button';
@@ -29,12 +28,6 @@ import {
 } from './styles';
 
 const LoginPage = () => {
-  let navigate = useNavigate();
-
-  const navigateToLogin = () => {
-    navigate('/login');
-  };
-
   return (
     <Login>
       <Login1>
@@ -42,7 +35,7 @@ const LoginPage = () => {
           <Title>
             <Welcomeback>Welcome back!</Welcomeback>
           </Title>
-          <ViceriForm onClick={navigateToLogin}>
+          <ViceriForm>
             <InputFormItem
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
               name="inputformitem"

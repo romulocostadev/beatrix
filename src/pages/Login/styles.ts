@@ -73,7 +73,6 @@ export const ViceriForm = styled(Form)`
   column-gap: 8px;
   justify-content: flex-start;
   align-items: flex-start;
-  cursor: pointer;
 `;
 export const InputFormItem = styled(Form.Item)`
   width: 304px;
