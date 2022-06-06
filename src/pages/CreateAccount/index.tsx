@@ -45,7 +45,7 @@ const CreateAccountPage = () => {
           </Title1>
           <ViceriForm1 onClick={navigateToLogin}>
             <InputFormItem2
-              label={<Typography.Text ellipsis>E-mail:</Typography.Text>}
+              label={<Typography.Text ellipsis>E-mail</Typography.Text>}
               name="inputformitem2"
             >
               <GenericInput placeholder="E-mail" />

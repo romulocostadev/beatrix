@@ -34,7 +34,7 @@ export const Login2 = styled.div`
 `;
 export const Content2 = styled.div`
   flex-direction: column;
-  height: 244px;
+  height: 246px;
   width: 304px;
   display: flex;
   flex-direction: column;
@@ -63,7 +63,7 @@ export const TextComponentcreating = styled(GenericText)`
 `;
 
 export const ViceriForm1 = styled(Form)`
-  height: 172px;
+  height: 174px;
   width: 304px;
   display: flex;
   flex-direction: column;
@@ -82,7 +82,7 @@ export const InputFormItem2 = styled(Form.Item)`
 `;
 
 export const InputLabelVertical2 = styled.div`
-  height: 20px;
+  height: 22px;
   width: 304px;
   display: flex;
   flex-direction: row;
@@ -92,17 +92,23 @@ export const InputLabelVertical2 = styled.div`
   justify-content: flex-start;
   align-items: center;
 `;
+export const TextComponent2 = styled(GenericText)`
+  margin: 0px;
+`;
+
 export const InputLabel2 = styled(GenericText)`
   font-size: 12px;
   color: #000000;
   margin: 0px;
+  left: 11px;
+  top: 1px;
   width: 37px;
 `;
 
 export const InputFormItem3 = styled(Form.Item)`
   width: 304px;
   left: 0px;
-  top: 60px;
+  top: 62px;
   position: static;
 `;
 
@@ -127,7 +133,7 @@ export const InputLabel3 = styled(GenericText)`
 export const InputFormItem4 = styled(Form.Item)`
   width: 304px;
   left: 0px;
-  top: 120px;
+  top: 122px;
   position: static;
 `;
 

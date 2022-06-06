@@ -2,6 +2,7 @@ import React from 'react';
 
 import { useNavigate } from 'react-router-dom';
 import { Typography } from 'antd';
+import GenericInput from '../../components/Input';
 import GenericCodeButton from '../../components/Button';
 
 import {
@@ -12,7 +13,6 @@ import {
   Welcomeback,
   ViceriForm,
   InputFormItem,
-  Email,
   InputFormItem1,
   Password,
   Actions,
@@ -48,7 +48,7 @@ const LoginPage = () => {
               name="inputformitem"
               rules={[{ required: true, message: 'Campo obrigatório' }]}
             >
-              <Email placeholder="E-mail" />
+              <GenericInput placeholder="E-mail" />
             </InputFormItem>
             <InputFormItem1
               label={<Typography.Text ellipsis>Password</Typography.Text>}

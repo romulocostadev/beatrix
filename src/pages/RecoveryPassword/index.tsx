@@ -1,8 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 
 import { useNavigate } from 'react-router-dom';
 import { Typography } from 'antd';
-import GenericInput from '../../components/Input';
 
 import {
   RecoveryPassword,
@@ -12,6 +12,7 @@ import {
   Recoveringyourpassword,
   ViceriForm2,
   InputFormItem5,
+  Email2,
   Actions4,
   ButtonsButton3,
   CreateaAccount2,
@@ -46,7 +47,7 @@ const RecoveryPasswordPage = () => {
               label={<Typography.Text ellipsis>E-mail:</Typography.Text>}
               name="inputformitem5"
             >
-              <GenericInput placeholder="E-mail" />
+              <Email2 placeholder="E-mail" />
             </InputFormItem5>
           </ViceriForm2>
           <Actions4>
@@ -62,7 +63,7 @@ const RecoveryPasswordPage = () => {
           <Text3>
             <TextComponentdid>Did you remember your password?</TextComponentdid>
             <Wererelievedtohearthat>
-              Were relieved to hear that.
+              We're relieved to hear that.
             </Wererelievedtohearthat>
           </Text3>
           <Actions5>

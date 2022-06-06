@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { Form } from 'antd';
+import GenericInput from '../../components/Input';
 import GenericCodeButton from '../../components/Button';
 import Vector14840549090882Image from './assets/1524_147662.png';
 import GenericText from '../../components/Text';
@@ -97,6 +98,10 @@ export const InputLabel5 = styled(GenericText)`
   color: #000000;
   margin: 0px;
   width: 37px;
+`;
+
+export const Email2 = styled(GenericInput)`
+  top: 20px;
 `;
 
 export const Actions4 = styled.div`
