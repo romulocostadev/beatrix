@@ -43,7 +43,7 @@ const CreateAccountPage = () => {
                   E-mail de recuperação
                 </Typography.Text>
               }
-              name="e-mail de recuperação"
+              name="emailderecuperação"
             >
               <GenericInput placeholder="E-mail" />
             </InputFormItem2>
@@ -57,7 +57,7 @@ const CreateAccountPage = () => {
               label={
                 <Typography.Text ellipsis>Confirm password</Typography.Text>
               }
-              name="confirm password"
+              name="confirmpassword"
             >
               <GenericInput placeholder="E-mail" />
             </InputFormItem4>

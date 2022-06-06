@@ -37,7 +37,7 @@ const RecoveryPasswordPage = () => {
           <ViceriForm2>
             <InputFormItem5
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
-              name="e-mail"
+              name="email"
             >
               <Email2 placeholder="E-mail" />
             </InputFormItem5>
