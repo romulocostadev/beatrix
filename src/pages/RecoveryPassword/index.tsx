@@ -62,7 +62,7 @@ const RecoveryPasswordPage = () => {
           <Text3>
             <TextComponentdid>Did you remember your password?</TextComponentdid>
             <Wererelievedtohearthat>
-              We're relieved to hear that.
+              Were relieved to hear that.
             </Wererelievedtohearthat>
           </Text3>
           <Actions5>
