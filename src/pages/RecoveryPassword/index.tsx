@@ -55,7 +55,11 @@ const RecoveryPasswordPage = () => {
           <Text3>
             <TextComponentdid>Did you remember your password?</TextComponentdid>
             <Wererelievedtohearthat>
+<<<<<<< HEAD
               Were relieved to hear that.
+=======
+              We're relieved to hear that.
+>>>>>>> design2code-generated-code
             </Wererelievedtohearthat>
           </Text3>
           <Actions5>
