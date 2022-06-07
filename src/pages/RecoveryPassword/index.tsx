@@ -37,7 +37,7 @@ const RecoveryPasswordPage = () => {
           <ViceriForm2>
             <InputFormItem5
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
-              name="email"
+              name="eMail"
             >
               <Email2 placeholder="E-mail" />
             </InputFormItem5>
@@ -55,11 +55,7 @@ const RecoveryPasswordPage = () => {
           <Text3>
             <TextComponentdid>Did you remember your password?</TextComponentdid>
             <Wererelievedtohearthat>
-<<<<<<< HEAD
               Were relieved to hear that.
-=======
-              We're relieved to hear that.
->>>>>>> design2code-generated-code
             </Wererelievedtohearthat>
           </Text3>
           <Actions5>

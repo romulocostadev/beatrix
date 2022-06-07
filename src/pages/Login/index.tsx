@@ -35,10 +35,10 @@ const LoginPage = () => {
           <Title>
             <Welcomeback>Welcome back!</Welcomeback>
           </Title>
-          <ViceriForm layout="vertical">
+          <ViceriForm>
             <InputFormItem
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
-              name="email"
+              name="eMail"
               rules={[{ required: true, message: 'Campo obrigatório' }]}
             >
               <GenericInput placeholder="E-mail" />
