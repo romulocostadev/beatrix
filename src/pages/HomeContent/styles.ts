@@ -5,7 +5,7 @@ import GenericText from '../../components/Text';
 
 export const HomeContent = styled.div`
   left: 0px;
-  top: 1453px;
+  top: 1177px;
   position: static;
   height: 100%;
   width: 1920px;
@@ -15,7 +15,7 @@ export const HomeContent = styled.div`
 export const PageHeader = styled.div`
   left: 0px;
   top: 0px;
-  position: absolute;
+  position: inherit;
   height: 86px;
   width: 1920px;
   display: flex;
@@ -34,7 +34,7 @@ export const PageHeader = styled.div`
 `;
 export const Home = styled(GenericText)`
   font-size: 30px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
   left: 360px;
   top: 24px;

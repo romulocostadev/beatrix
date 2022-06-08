@@ -86,10 +86,10 @@ export const Logo = styled.div`
 export const Frame9 = styled.div`
   left: 0px;
   top: 0px;
-  position: absolute;
+  position: inherit;
   left: 0px;
   top: 0px;
-  position: absolute;
+  position: inherit;
   height: 16px;
   width: 478px;
   box-sizing: border-box;
@@ -120,7 +120,7 @@ export const Stage = styled.div`
 `;
 export const Creatingdata = styled(GenericText)`
   font-size: 14px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
   left: 0px;
   top: 0px;
@@ -129,7 +129,7 @@ export const Creatingdata = styled(GenericText)`
 
 export const Howtocreateadataworkflow = styled(GenericText)`
   font-weight: 400;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 109px;
   top: 2px;
@@ -169,7 +169,7 @@ export const Title1 = styled.div`
 `;
 export const Solutions = styled(GenericText)`
   font-size: 30px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
   left: 0px;
   top: 0px;
@@ -199,7 +199,7 @@ export const Sorter = styled.div`
 export const Sortby = styled(GenericText)`
   font-weight: 400;
   font-size: 14px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 0px;
   top: 0px;
@@ -218,7 +218,7 @@ export const Name = styled(GenericText)`
 export const Lastmodified = styled(GenericText)`
   font-weight: 400;
   font-size: 14px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
   left: 112px;
   top: 0px;
@@ -279,7 +279,7 @@ export const Logo2 = styled.div`
 `;
 export const Veiling = styled(GenericText)`
   font-size: 14px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
   left: 0px;
   top: 0px;
@@ -288,7 +288,7 @@ export const Veiling = styled(GenericText)`
 
 export const Apr1820221356 = styled(GenericText)`
   font-weight: 400;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 0px;
   top: 22px;
@@ -338,7 +338,7 @@ export const Logo4 = styled.div`
 `;
 export const Iris = styled(GenericText)`
   font-size: 14px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
   left: 0px;
   top: 0px;
@@ -347,7 +347,7 @@ export const Iris = styled(GenericText)`
 
 export const Apr1720221356 = styled(GenericText)`
   font-weight: 400;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 0px;
   top: 22px;

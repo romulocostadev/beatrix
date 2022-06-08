@@ -9,6 +9,6 @@ export const GenericTextStyle = styled(Typography.Text)`
   font-family: Roboto;
   font-weight: 500;
   font-size: 12px;
-  color: #7447f9;
+  color: rgba(0, 0, 1, 1);
   text-align: left;
 `;

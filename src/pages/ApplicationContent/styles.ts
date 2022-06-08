@@ -44,7 +44,7 @@ export const WelcometoBeatrix = styled(GenericText)`
 export const Seehowtogetstarted = styled(GenericText)`
   font-weight: 400;
   font-size: 16px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 21px;
   top: 44px;
@@ -113,7 +113,7 @@ export const Lessons = styled(GenericText)`
 export const LearntousetheBeatrix = styled(GenericText)`
   font-weight: 400;
   font-size: 16px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 73.5px;
   top: 296px;
@@ -178,7 +178,7 @@ export const ConnectFigma = styled(GenericText)`
 export const TextComponentconnect = styled(GenericText)`
   font-weight: 400;
   font-size: 16px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 46.5px;
   top: 296px;
@@ -244,7 +244,7 @@ export const Datainput = styled(GenericText)`
 export const TextComponentstart = styled(GenericText)`
   font-weight: 400;
   font-size: 16px;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 44.5px;
   top: 296px;
