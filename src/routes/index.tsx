@@ -1,18 +1,18 @@
 import { Routes, Route } from 'react-router-dom';
-import LayoutLayout from '../layouts/LayoutLayout';
-import Login from '../pages/Login';
-import CreateAccount from '../pages/CreateAccount';
-import RecoveryPassword from '../pages/RecoveryPassword';
+import Home from '../layouts/Home';
+import HomeContent from '../pages/HomeContent';
+import ApplicationContent from '../pages/ApplicationContent';
+import Application from '../layouts/Application';
 
 const IndexRoutes = () => (
   <Routes>
-    <Route path="" element={<LayoutLayout />} />
-    <Route path="/layout-layout" element={<LayoutLayout />}>
-      <Route index element={<Login />} />
-      <Route path="login" element={<Login />} />
-      <Route path="create-account" element={<CreateAccount />} />
-      <Route path="recovery-password" element={<RecoveryPassword />} />
+    <Route path="" element={<Home />} />
+    <Route path="/home" element={<Home />}>
+      <Route index element={<HomeContent />} />
+      <Route path="home-content" element={<HomeContent />} />
+      <Route path="application-content" element={<ApplicationContent />} />
     </Route>
+    <Route path="application" element={<Application />} />
   </Routes>
 );
 export default IndexRoutes;
