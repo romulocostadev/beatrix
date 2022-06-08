@@ -70,7 +70,7 @@ box-sizing: border-box;
 import GenericText from '../../../components/Text'
 export const Label = styled(GenericText)`
         font-weight: 400;
-        color: #000000;
+        color: rgba(0, 0, 0, 0.85) ;
         margin: 0px;
       left: 15.5px;
       width: 38px;
@@ -107,7 +107,7 @@ box-sizing: border-box;
 `;
 export const Label1 = styled(GenericText)`
       font-weight: 400;
-      color: #000000;
+      color: rgba(0, 0, 0, 0.85) ;
       margin: 0px;
     left: 8.5px;
     width: 52px;
@@ -177,7 +177,7 @@ box-sizing: border-box;
 `;
 export const Label3 = styled(GenericText)`
   font-weight: 400;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.85) ;
   margin: 0px;
 left: 14px;
 width: 41px;
@@ -224,7 +224,7 @@ box-sizing: border-box;
 `;
 export const Label4 = styled(GenericText)`
       font-weight: 400;
-      color: #000000;
+      color: rgba(0, 0, 0, 0.85) ;
       margin: 0px;
     left: 12px;
     width: 45px;
@@ -261,7 +261,7 @@ box-sizing: border-box;
 `;
 export const Label5 = styled(GenericText)`
     font-weight: 400;
-    color: #000000;
+    color: rgba(0, 0, 0, 0.85) ;
     margin: 0px;
 `;
 
