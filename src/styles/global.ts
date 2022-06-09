@@ -66,9 +66,6 @@ const GlobalStyle = createGlobalStyle`
     color: #fff !important;
   }
 
-  .ant-tabs-nav{
-    margin: 0px !important;
-  }
 `;
 
 export default GlobalStyle;
