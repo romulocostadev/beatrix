@@ -1,270 +1,349 @@
 import styled from 'styled-components';
 
-import IconOutlinedProjectImage from './assets/I1531_153732_918_110211.png';
-import IconOutlinedPartitionImage from './assets/I1531_153733_918_110211.png';
-import IconOutlinedDatabaseImage from './assets/I1531_153734_1189_126575.png';
-import IconOutlinedApiImage from './assets/I1531_153735_918_110211.png';
-import IconImage from './assets/I1531_153737_918_110211.png';
-import Icon1Image from './assets/I1531_153738_918_110211.png';
+import IconOutlinedCaretDownImage from './assets/I1702_130359_918_110418.png';
+import IconOutlinedFolderOpenImage from './assets/I1702_130359_969_114298.png';
+import GenericCodeButton from '../../../components/Button';
+import IconOutlinedCaretDown1Image from './assets/I1702_130360_918_110452.png';
+import IconOutlinedFolderOpen1Image from './assets/I1702_130360_969_114294.png';
+import IconOutlinedPlusImage from './assets/I1702_130360_991_120139_125_68244.png';
+import IconOutlinedCaretDown2Image from './assets/I1702_130361_918_110452.png';
+import IconOutlinedFolderOpen2Image from './assets/I1702_130361_969_114294.png';
+import IconOutlinedPlus1Image from './assets/I1702_130361_991_120139_125_68244.png';
 import GenericText from '../../../components/Text';
 
 export const LayoutSider = styled.div`
   height: 100%;
-  width: 68px;
+  width: 240px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #9a71ff;
 `;
 export const MenuGroup = styled.div`
   flex-direction: column;
   height: 100%;
-  width: 68px;
+  width: 240px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   background-color: #ffffff;
 `;
-export const FirstSection = styled.div`
+export const Layers = styled.div`
   flex-direction: column;
-  height: 256px;
-  width: 68px;
+  height: 100%;
+  width: 240px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: center;
 `;
-export const MenuItem = styled.div`
-  flex-direction: column;
-  height: 64px;
-  width: 68px;
+export const TreeItem = styled.div`
+  height: 32px;
+  width: 240px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   box-sizing: border-box;
   row-gap: 8px;
   column-gap: 8px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 10px 10px 10px 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  background-color: #ffffff;
-`;
-export const IconOutlinedProject = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
-  height: 16px;
-  width: 16px;
-  box-sizing: border-box;
-  background: url(${IconOutlinedProjectImage});
-  background-repeat: no-repeat;
-`;
-export const Label = styled(GenericText)`
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.85);
-  margin: 0px;
-  left: 15.5px;
-  width: 38px;
-`;
-
-export const MenuItem1 = styled.div`
-  flex-direction: column;
-  height: 64px;
-  width: 68px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  background-color: #ffffff;
-`;
-export const IconOutlinedPartition = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
-  height: 16px;
-  width: 16px;
-  box-sizing: border-box;
-  background: url(${IconOutlinedPartitionImage});
-  background-repeat: no-repeat;
-`;
-export const Label1 = styled(GenericText)`
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.85);
-  margin: 0px;
-  left: 8.5px;
-  width: 52px;
-`;
-
-export const MenuItem2 = styled.div`
-  flex-direction: column;
-  height: 64px;
-  width: 68px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
+  padding: 2px 8px 2px 8px;
+  padding-top: 2px;
+  padding-left: 8px;
+  padding-bottom: 2px;
+  padding-right: 8px;
   background-color: #f7f1ff;
 `;
-export const IconOutlinedDatabase = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
-  height: 16px;
-  width: 16px;
-  box-sizing: border-box;
-  background: url(${IconOutlinedDatabaseImage});
-  background-repeat: no-repeat;
-`;
-export const Label2 = styled(GenericText)`
-  margin: 0px;
-`;
-
-export const MenuItem3 = styled.div`
+export const Frame1 = styled.div`
   flex-direction: column;
-  height: 64px;
-  width: 68px;
+  height: 28px;
+  width: 12px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  row-gap: 4px;
+  column-gap: 4px;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 10px 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  background-color: #ffffff;
 `;
-export const IconOutlinedApi = styled.div`
-  left: 26px;
-  top: 10px;
+export const IconOutlinedCaretDown = styled.div`
+  left: 0px;
+  top: 8px;
   position: static;
-  margin-top: 28px;
-  height: 16px;
-  width: 16px;
+  height: 12px;
+  width: 12px;
   box-sizing: border-box;
-  background: url(${IconOutlinedApiImage});
+  background: url(${IconOutlinedCaretDownImage});
   background-repeat: no-repeat;
-`;
-export const Label3 = styled(GenericText)`
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.85);
-  margin: 0px;
-  left: 14px;
-  width: 41px;
-`;
-
-export const SecondSection = styled.div`
-  flex-direction: column;
-  height: 128px;
-  width: 68px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  justify-content: flex-start;
-  align-items: flex-start;
-`;
-export const MenuItem4 = styled.div`
-  flex-direction: column;
-  height: 64px;
-  width: 68px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  background-color: #ffffff;
 `;
 export const Icon = styled.div`
-  left: 26px;
-  top: 10px;
+  height: 28px;
+  width: 16px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+`;
+export const IconOutlinedFolderOpen = styled.div`
+  left: 0px;
+  top: 6px;
   position: static;
-  margin-top: 28px;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-  background: url(${IconImage});
+  background: url(${IconOutlinedFolderOpenImage});
   background-repeat: no-repeat;
 `;
-export const Label4 = styled(GenericText)`
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.85);
+export const ItemWrapper = styled.div`
+  height: 20px;
+  width: 156px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 4px;
+`;
+export const Database = styled(GenericText)`
+  font-weight: 500;
+  color: #7447f9;
   margin: 0px;
-  left: 12px;
-  width: 45px;
+  width: 153px;
 `;
 
-export const MenuItem5 = styled.div`
+export const ButtonsButton = styled(GenericCodeButton)`
+  left: 216px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  height: 16px;
+`;
+
+export const TreeItem1 = styled.div`
+  height: 32px;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 8px;
+  column-gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2px 8px 2px 24px;
+  padding-top: 2px;
+  padding-left: 24px;
+  padding-bottom: 2px;
+  padding-right: 8px;
+`;
+export const Frame11 = styled.div`
   flex-direction: column;
-  height: 64px;
-  width: 68px;
+  height: 28px;
+  width: 12px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  row-gap: 4px;
+  column-gap: 4px;
+  justify-content: center;
+  align-items: center;
+`;
+export const IconOutlinedCaretDown1 = styled.div`
+  left: 0px;
+  top: 8px;
+  position: static;
+  height: 12px;
+  width: 12px;
+  box-sizing: border-box;
+  background: url(${IconOutlinedCaretDown1Image});
+  background-repeat: no-repeat;
+`;
+export const Icon1 = styled.div`
+  height: 28px;
+  width: 16px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+`;
+export const IconOutlinedFolderOpen1 = styled.div`
+  left: 0px;
+  top: 6px;
+  position: static;
+  height: 16px;
+  width: 16px;
+  box-sizing: border-box;
+  background: url(${IconOutlinedFolderOpen1Image});
+  background-repeat: no-repeat;
+`;
+export const ItemWrapper1 = styled.div`
+  height: 20px;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 4px;
+`;
+export const Database1 = styled(GenericText)`
+  margin: 0px;
+`;
+
+export const ButtonsButton1 = styled.div`
+  flex-direction: column;
+  height: 16px;
+  width: 16px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   row-gap: 8px;
   column-gap: 8px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 10px 10px 10px 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  background-color: #ffffff;
+  border-radius: 2px;
 `;
-export const Icon1 = styled.div`
-  left: 26px;
-  top: 10px;
+export const Content = styled.div`
+  height: 16px;
+  width: 16px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 8px;
+  column-gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+`;
+export const IconOutlinedPlus = styled.div`
+  left: 0px;
+  top: 0px;
   position: static;
-  margin-top: 28px;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-  background: url(${Icon1Image});
+  background: url(${IconOutlinedPlusImage});
   background-repeat: no-repeat;
 `;
-export const Label5 = styled(GenericText)`
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.85);
+export const TreeItem2 = styled.div`
+  height: 32px;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 8px;
+  column-gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2px 8px 2px 24px;
+  padding-top: 2px;
+  padding-left: 24px;
+  padding-bottom: 2px;
+  padding-right: 8px;
+`;
+export const Frame12 = styled.div`
+  flex-direction: column;
+  height: 28px;
+  width: 12px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  row-gap: 4px;
+  column-gap: 4px;
+  justify-content: center;
+  align-items: center;
+`;
+export const IconOutlinedCaretDown2 = styled.div`
+  left: 0px;
+  top: 8px;
+  position: static;
+  height: 12px;
+  width: 12px;
+  box-sizing: border-box;
+  background: url(${IconOutlinedCaretDown2Image});
+  background-repeat: no-repeat;
+`;
+export const Icon2 = styled.div`
+  height: 28px;
+  width: 16px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+`;
+export const IconOutlinedFolderOpen2 = styled.div`
+  left: 0px;
+  top: 6px;
+  position: static;
+  height: 16px;
+  width: 16px;
+  box-sizing: border-box;
+  background: url(${IconOutlinedFolderOpen2Image});
+  background-repeat: no-repeat;
+`;
+export const ItemWrapper2 = styled.div`
+  height: 20px;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 4px;
+`;
+export const Database2 = styled(GenericText)`
   margin: 0px;
 `;
 
-export const Divider = styled.div`
-  border: 1px solid #000000;
+export const ButtonsButton2 = styled.div`
+  flex-direction: column;
+  height: 16px;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  row-gap: 8px;
+  column-gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 2px;
+`;
+export const Content1 = styled.div`
+  height: 16px;
+  width: 16px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  row-gap: 8px;
+  column-gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+`;
+export const IconOutlinedPlus1 = styled.div`
+  left: 0px;
+  top: 0px;
+  position: static;
+  height: 16px;
+  width: 16px;
+  box-sizing: border-box;
+  background: url(${IconOutlinedPlus1Image});
+  background-repeat: no-repeat;
 `;

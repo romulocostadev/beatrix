@@ -2,13 +2,13 @@ import styled from 'styled-components';
 import { Typography } from 'antd';
 
 export const GenericTextStyle = styled(Typography.Text)`
-  width: 27px;
+  width: 138px;
   position: static;
-  left: 21.5px;
-  top: 34px;
+  left: 0px;
+  top: 0px;
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 12px;
-  color: #7447f9;
+  color: rgba(0, 0, 0, 0.85);
   text-align: left;
 `;
