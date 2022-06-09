@@ -43,7 +43,8 @@ export const Home = styled(GenericText)`
 export const TabGroup = styled(Tabs).attrs({
   tabBarStyle: {
     padding: 0px 360.0px 0px 360.0px;
-  }`
+  }
+})`
   width: 1920px;
 `;
 
