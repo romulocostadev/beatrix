@@ -4,7 +4,9 @@ import HomeContent from '../pages/HomeContent';
 
 const IndexRoutes = () => (
   <Routes>
-    <Route path="" element={<Home />} />
+    <Route path="/" element={<Home />}>
+      <Route index element={<HomeContent />} />
+    </Route>
     <Route path="/home" element={<Home />}>
       <Route index element={<HomeContent />} />
       <Route path="home-content" element={<HomeContent />} />
