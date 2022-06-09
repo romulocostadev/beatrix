@@ -40,7 +40,11 @@ export const Home = styled(GenericText)`
   width: 82px;
 `;
 
-export const TabGroup = styled(Tabs)`
+export const TabGroup = styled(Tabs).attrs({
+  tabBarStyle: {
+    padding: '0px 360px',
+  },
+})`
   width: 1920px;
 `;
 

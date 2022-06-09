@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from '../layouts/Home';
+import Home from '../layouts/Home1';
 import HomeContent from '../pages/HomeContent';
 
 const IndexRoutes = () => (
