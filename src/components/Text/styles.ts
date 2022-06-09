@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { Typography } from 'antd';
 
 export const GenericTextStyle = styled(Typography.Text)`
-  width: 27px;
   position: static;
   left: 21.5px;
   top: 34px;
