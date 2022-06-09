@@ -2,21 +2,21 @@ import React from 'react';
 
 import {
   Content011,
-  LessonsCard1,
-  Lessons2,
+  LessonsCard,
   Lessons1,
+  Lessons,
   Bar,
   Logo,
   Frame9,
-  ButtonsButton3,
+  ButtonsButton,
   Stage,
   Creatingdata,
   Howtocreateadataworkflow,
-  ButtonsButton4,
+  ButtonsButton1,
   Solutions1,
-  Title1,
+  Title,
   Solutions,
-  ButtonsButton5,
+  ButtonsButton2,
   Sorter,
   Sortby,
   Name,
@@ -37,29 +37,29 @@ import {
 const Content01Page = () => {
   return (
     <Content011>
-      <LessonsCard1>
-        <Lessons2>
-          <Lessons1>Lessons</Lessons1>
+      <LessonsCard>
+        <Lessons1>
+          <Lessons>Lessons</Lessons>
           <Bar>
             <Logo>
               <Frame9 />
             </Logo>
           </Bar>
-          <ButtonsButton3 type="link">Start lesson</ButtonsButton3>
-        </Lessons2>
+          <ButtonsButton type="link">Start lesson</ButtonsButton>
+        </Lessons1>
         <Stage>
           <Creatingdata>Creating data</Creatingdata>
           <Howtocreateadataworkflow>
             How to create a data workflow.
           </Howtocreateadataworkflow>
         </Stage>
-        <ButtonsButton4 type="link">View all lessons</ButtonsButton4>
-      </LessonsCard1>
+        <ButtonsButton1 type="link">View all lessons</ButtonsButton1>
+      </LessonsCard>
       <Solutions1>
-        <Title1>
+        <Title>
           <Solutions>Solutions</Solutions>
-          <ButtonsButton5 type="primary">New solution</ButtonsButton5>
-        </Title1>
+          <ButtonsButton2 type="primary">New solution</ButtonsButton2>
+        </Title>
         <Sorter>
           <Sortby>Sort by</Sortby>
           <Name>name</Name>

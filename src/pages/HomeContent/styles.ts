@@ -34,7 +34,6 @@ export const PageHeader = styled.div`
 `;
 export const Home = styled(GenericText)`
   font-size: 30px;
-  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
   left: 360px;
   top: 24px;

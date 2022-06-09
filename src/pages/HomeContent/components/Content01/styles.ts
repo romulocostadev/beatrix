@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-import Frame9Image from '../../assets/1642_149459.png';
-import GenericCodeButton from '../../../../components/Button';
-import Logo1Image from '../../assets/1642_149475.png';
-import Logo3Image from '../../assets/1642_149480.png';
-import GenericText from '../../../../components/Text';
+import Frame9Image from './assets/1642_149459.png';
+import GenericCodeButton from '../../../components/Button';
+import Logo1Image from './assets/1642_149475.png';
+import Logo3Image from './assets/1642_149480.png';
+import GenericText from '../../../components/Text';
 
 export const Content011 = styled.div`
   flex-direction: column;
@@ -24,7 +24,7 @@ export const Content011 = styled.div`
   padding-right: 360px;
   background-color: rgba(115, 70, 248, 0.019999999552965164);
 `;
-export const LessonsCard1 = styled.div`
+export const LessonsCard = styled.div`
   flex-direction: column;
   height: 134px;
   width: 1202px;
@@ -44,7 +44,7 @@ export const LessonsCard1 = styled.div`
   padding-right: 16px;
   background-color: #ffffff;
 `;
-export const Lessons2 = styled.div`
+export const Lessons1 = styled.div`
   height: 24px;
   width: 1168px;
   display: flex;
@@ -55,11 +55,10 @@ export const Lessons2 = styled.div`
   justify-content: flex-start;
   align-items: center;
 `;
-export const Lessons1 = styled(GenericText)`
+export const Lessons = styled(GenericText)`
   font-size: 16px;
+  color: #7447f9;
   margin: 0px;
-  left: 0px;
-  top: 0px;
   width: 61px;
 `;
 
@@ -98,7 +97,7 @@ export const Frame9 = styled.div`
   background: url(${Frame9Image});
   background-repeat: no-repeat;
 `;
-export const ButtonsButton3 = styled(GenericCodeButton)`
+export const ButtonsButton = styled(GenericCodeButton)`
   left: 1092px;
   top: 1px;
   width: 76px;
@@ -119,16 +118,13 @@ export const Stage = styled.div`
   align-items: flex-end;
 `;
 export const Creatingdata = styled(GenericText)`
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
-  left: 0px;
-  top: 0px;
   width: 86px;
 `;
 
 export const Howtocreateadataworkflow = styled(GenericText)`
   font-weight: 400;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
   left: 109px;
@@ -136,7 +132,7 @@ export const Howtocreateadataworkflow = styled(GenericText)`
   width: 1060px;
 `;
 
-export const ButtonsButton4 = styled(GenericCodeButton)`
+export const ButtonsButton1 = styled(GenericCodeButton)`
   left: 16px;
   top: 94px;
   width: 100px;
@@ -157,7 +153,7 @@ export const Solutions1 = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
 `;
-export const Title1 = styled.div`
+export const Title = styled.div`
   justify-content: space-between;
   height: 38px;
   width: 1200px;
@@ -169,14 +165,11 @@ export const Title1 = styled.div`
 `;
 export const Solutions = styled(GenericText)`
   font-size: 30px;
-  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
-  left: 0px;
-  top: 0px;
   width: 128px;
 `;
 
-export const ButtonsButton5 = styled(GenericCodeButton)`
+export const ButtonsButton2 = styled(GenericCodeButton)`
   left: 1086px;
   top: 3px;
   width: 114px;
@@ -198,30 +191,23 @@ export const Sorter = styled.div`
 `;
 export const Sortby = styled(GenericText)`
   font-weight: 400;
-  font-size: 14px;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
-  left: 0px;
-  top: 0px;
   width: 45px;
 `;
 
 export const Name = styled(GenericText)`
   font-weight: 400;
-  font-size: 14px;
+  color: #7447f9;
   margin: 0px;
   left: 60px;
-  top: 0px;
   width: 37px;
 `;
 
 export const Lastmodified = styled(GenericText)`
   font-weight: 400;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
   left: 112px;
-  top: 0px;
   width: 82px;
 `;
 
@@ -278,21 +264,15 @@ export const Logo2 = styled.div`
   align-items: flex-start;
 `;
 export const Veiling = styled(GenericText)`
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
-  left: 0px;
-  top: 0px;
-  width: 201px;
 `;
 
 export const Apr1820221356 = styled(GenericText)`
   font-weight: 400;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
-  left: 0px;
   top: 22px;
-  width: 201px;
 `;
 
 export const Solution03 = styled.div`
@@ -337,19 +317,13 @@ export const Logo4 = styled.div`
   align-items: flex-start;
 `;
 export const Iris = styled(GenericText)`
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.85);
   margin: 0px;
-  left: 0px;
-  top: 0px;
-  width: 201px;
 `;
 
 export const Apr1720221356 = styled(GenericText)`
   font-weight: 400;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
-  left: 0px;
   top: 22px;
-  width: 201px;
 `;
