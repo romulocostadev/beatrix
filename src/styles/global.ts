@@ -66,10 +66,6 @@ const GlobalStyle = createGlobalStyle`
     color: #fff !important;
   }
 
-  .ant-tabs-top > .ant-tabs-nav, .ant-tabs-bottom > .ant-tabs-nav, .ant-tabs-top > div > .ant-tabs-nav, .ant-tabs-bottom > div > .ant-tabs-nav{
-    margin: 0px;
-  }
-
 `;
 
 export default GlobalStyle;
