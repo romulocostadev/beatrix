@@ -4,7 +4,7 @@ import Frame9Image from './assets/1642_149459.png';
 import GenericCodeButton from '../../../../components/Button';
 import Logo1Image from './assets/1642_149475.png';
 import Logo3Image from './assets/1642_149480.png';
-import GenericText from '../../../../components/Text';
+import GenericText from '../../components/Text';
 
 export const Content011 = styled.div`
   flex-direction: column;
