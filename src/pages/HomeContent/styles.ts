@@ -4,7 +4,7 @@ import {Tabs} from 'antd'
 
 export const HomeContent = styled.div`
 left: 0px;
-top: 1177px;
+top: 1387px;
 position: static;
 height: 100%;
 width: 1920px;
@@ -42,9 +42,8 @@ export const Home = styled(GenericText)`
 
 export const TabGroup = styled(Tabs).attrs({
   tabBarStyle: {
-    padding: 0px 360.0px 0px 360.0px;
-  }
-})`
+    padding:'0px 360.0px 0px 360.0px',
+  }})`
   width: 1920px;
 `;
 
