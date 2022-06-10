@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import {Button} from 'antd';
-export const GenericButtonStyle = styled(Button)`
-width: 117px;
-position: static;
-left: 101.5px;
-top: 344px;
-`;
+import { Button } from 'antd';
 
+export const GenericButtonStyle = styled(Button)`
+  width: 117px;
+  position: static;
+  left: 101.5px;
+  top: 344px;
+`;
