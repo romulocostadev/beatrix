@@ -85,9 +85,6 @@ export const CardVector = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const VectorComponentundrawyoutube = styled.div`
-  left: 27px;
-  top: 0px;
-  position: static;
   height: 200px;
   width: 218px;
   box-sizing: border-box;
@@ -149,9 +146,6 @@ export const CardVector1 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const VectorComponentundrawprototyp = styled.div`
-  left: 9.251953125px;
-  top: 0px;
-  position: static;
   height: 200px;
   width: 253px;
   box-sizing: border-box;
@@ -212,9 +206,6 @@ export const CardVector2 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const Undrawdatainputfxv21 = styled.div`
-  left: 37.376953125px;
-  top: 0px;
-  position: static;
   height: 200px;
   width: 197px;
   box-sizing: border-box;

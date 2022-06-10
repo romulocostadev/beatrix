@@ -3,10 +3,8 @@ import styled from 'styled-components';
 import IconOutlinedCaretDownImage from './assets/I1702_130359_918_110418.png';
 import IconOutlinedFolderOpenImage from './assets/I1702_130359_969_114298.png';
 import GenericCodeButton from '../../../components/Button';
-import IconOutlinedCaretDown1Image from './assets/I1702_130360_918_110452.png';
 import IconOutlinedFolderOpen1Image from './assets/I1702_130360_969_114294.png';
 import IconOutlinedPlusImage from './assets/I1702_130360_991_120139_125_68244.png';
-import IconOutlinedCaretDown2Image from './assets/I1702_130361_918_110452.png';
 import IconOutlinedFolderOpen2Image from './assets/I1702_130361_969_114294.png';
 import IconOutlinedPlus1Image from './assets/I1702_130361_991_120139_125_68244.png';
 import GenericText from '../../../components/Text';
@@ -66,9 +64,6 @@ export const Frame1 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const IconOutlinedCaretDown = styled.div`
-  left: 0px;
-  top: 8px;
-  position: static;
   height: 12px;
   width: 12px;
   box-sizing: border-box;
@@ -88,9 +83,6 @@ export const Icon2 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const IconOutlinedFolderOpen = styled.div`
-  left: 0px;
-  top: 6px;
-  position: static;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -149,14 +141,10 @@ export const Frame11 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const IconOutlinedCaretDown1 = styled.div`
-  left: 0px;
-  top: 8px;
-  position: static;
   height: 12px;
   width: 12px;
   box-sizing: border-box;
   padding: 0px 0px 0px 0px;
-  background: url(${IconOutlinedCaretDown1Image});
   background-repeat: no-repeat;
 `;
 export const Icon3 = styled.div`
@@ -171,9 +159,6 @@ export const Icon3 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const IconOutlinedFolderOpen1 = styled.div`
-  left: 0px;
-  top: 6px;
-  position: static;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -221,9 +206,6 @@ export const Content = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const IconOutlinedPlus = styled.div`
-  left: 0px;
-  top: 0px;
-  position: static;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -255,14 +237,10 @@ export const Frame12 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const IconOutlinedCaretDown2 = styled.div`
-  left: 0px;
-  top: 8px;
-  position: static;
   height: 12px;
   width: 12px;
   box-sizing: border-box;
   padding: 0px 0px 0px 0px;
-  background: url(${IconOutlinedCaretDown2Image});
   background-repeat: no-repeat;
 `;
 export const Icon4 = styled.div`
@@ -277,9 +255,6 @@ export const Icon4 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const IconOutlinedFolderOpen2 = styled.div`
-  left: 0px;
-  top: 6px;
-  position: static;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -327,9 +302,6 @@ export const Content1 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const IconOutlinedPlus1 = styled.div`
-  left: 0px;
-  top: 0px;
-  position: static;
   height: 16px;
   width: 16px;
   box-sizing: border-box;

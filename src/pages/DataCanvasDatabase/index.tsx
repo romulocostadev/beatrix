@@ -9,7 +9,7 @@ import {
   IconOutlinedDown1,
   Properties1,
   IconOutlinedMenu1,
-  Divider,
+  Divider4,
   CollapseBody1,
   Input4,
   InputBasic1,
@@ -19,7 +19,7 @@ import {
   Prefix2,
   Input2,
   VectorComponenticonoutlineddir,
-  Divider,
+  Divider5,
   AInstanceNeedsADatabase,
   VectorFrame1,
   DataVector,
@@ -39,7 +39,7 @@ const DataCanvasDatabasePage = () => {
               <Properties1>Properties</Properties1>
               <IconOutlinedMenu1 />
             </CollapseHead1>
-            <Divider />
+            <Divider4 />
             <CollapseBody1>
               <Input4>
                 <InputBasic1>
@@ -53,7 +53,7 @@ const DataCanvasDatabasePage = () => {
                 <VectorComponenticonoutlineddir />
               </Dropdown1>
             </CollapseBody1>
-            <Divider />
+            <Divider5 />
           </CollapseItem1>
         </CollapseProperties1>
       </MenuGroup3>
@@ -64,7 +64,7 @@ const DataCanvasDatabasePage = () => {
         <AInstanceNeedsaDatabase>
           A Instance Needs a Database
         </AInstanceNeedsaDatabase>
-        <TextComponentdont>Don't worry, we're almost there.</TextComponentdont>
+        <TextComponentdont>Dont worry, were almost there.</TextComponentdont>
         <HandleNewDatabase type="primary">New Database</HandleNewDatabase>
       </AInstanceNeedsADatabase>
     </DataCanvasDatabase>

@@ -53,10 +53,6 @@ export const MenuItem = styled.div`
   background-color: #ffffff;
 `;
 export const IconOutlinedProject = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -85,10 +81,6 @@ export const MenuItem1 = styled.div`
   background-color: #ffffff;
 `;
 export const IconOutlinedPartition = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -117,10 +109,6 @@ export const MenuItem2 = styled.div`
   background-color: #f7f1ff;
 `;
 export const IconOutlinedDatabase = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -151,10 +139,6 @@ export const MenuItem3 = styled.div`
   background-color: #ffffff;
 `;
 export const IconOutlinedApi = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -193,10 +177,6 @@ export const MenuItem4 = styled.div`
   background-color: #ffffff;
 `;
 export const Icon = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -225,10 +205,6 @@ export const MenuItem5 = styled.div`
   background-color: #ffffff;
 `;
 export const Icon1 = styled.div`
-  left: 26px;
-  top: 10px;
-  position: static;
-  margin-top: 28px;
   height: 16px;
   width: 16px;
   box-sizing: border-box;
@@ -244,5 +220,9 @@ export const Label5 = styled(GenericText)`
 `;
 
 export const Divider = styled.div`
-  border: 1px solid #000000;
+  height: 100%;
+  width: 2px;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline-offset: -0.5px;
+  padding: 0px 0px 0px 0px;
 `;

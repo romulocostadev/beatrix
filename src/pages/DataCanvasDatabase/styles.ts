@@ -2,15 +2,11 @@ import styled from 'styled-components';
 
 import IconOutlinedDown1Image from './assets/1702_154361.png';
 import IconOutlinedMenu1Image from './assets/1702_154363.png';
-import VectorComponenticonoutlineddirImage from './assets/I1702_154366_918_110189.png';
 import DataVectorImage from './assets/1702_150552.png';
 import GenericCodeButton from '../../components/Button';
 import GenericText from '../../components/Text';
 
 export const DataCanvasDatabase = styled.div`
-  left: 0px;
-  top: 2604px;
-  position: static;
   height: 100%;
   width: 1424px;
   box-sizing: border-box;
@@ -18,14 +14,11 @@ export const DataCanvasDatabase = styled.div`
   background-color: rgba(115, 70, 248, 0.019999999552965164);
 `;
 export const MenuGroup3 = styled.div`
-  left: 1184px;
-  top: 0px;
-  position: inherit;
-  left: 1184px;
-  top: 0px;
-  position: inherit;
   height: 100%;
   width: 240px;
+  left: 1184px;
+  top: 0px;
+  position: inherit;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -67,9 +60,6 @@ export const CollapseHead1 = styled.div`
   background-color: #ffffff;
 `;
 export const IconOutlinedDown1 = styled.div`
-  left: 16px;
-  top: 14px;
-  position: static;
   height: 12px;
   width: 12px;
   box-sizing: border-box;
@@ -85,9 +75,6 @@ export const Properties1 = styled(GenericText)`
 `;
 
 export const IconOutlinedMenu1 = styled.div`
-  left: 212px;
-  top: 14px;
-  position: static;
   height: 12px;
   width: 12px;
   box-sizing: border-box;
@@ -95,10 +82,13 @@ export const IconOutlinedMenu1 = styled.div`
   background: url(${IconOutlinedMenu1Image});
   background-repeat: no-repeat;
 `;
-export const Divider = styled.div`
-  border: 1px solid #000000;
+export const Divider4 = styled.div`
+  height: 2px;
+  width: 242px;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline-offset: -0.5px;
+  padding: 0px 0px 0px 0px;
 `;
-
 export const CollapseBody1 = styled.div`
   height: 84px;
   width: 240px;
@@ -177,29 +167,25 @@ export const Input2 = styled(GenericText)`
 `;
 
 export const VectorComponenticonoutlineddir = styled.div`
-  left: 204px;
-  top: 10px;
-  position: static;
   height: 12px;
   width: 12px;
   box-sizing: border-box;
   padding: 0px 0px 0px 0px;
-  background: url(${VectorComponenticonoutlineddirImage});
   background-repeat: no-repeat;
 `;
-export const Divider = styled.div`
-  border: 1px solid #000000;
+export const Divider5 = styled.div`
+  height: 2px;
+  width: 242px;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline-offset: -0.5px;
+  padding: 0px 0px 0px 0px;
 `;
-
 export const AInstanceNeedsADatabase = styled.div`
-  left: 552px;
-  top: 24px;
-  position: inherit;
-  left: 552px;
-  top: 24px;
-  position: inherit;
   height: 402px;
   width: 322px;
+  left: 552px;
+  top: 24px;
+  position: inherit;
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -220,9 +206,6 @@ export const VectorFrame1 = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const DataVector = styled.div`
-  left: 0px;
-  top: 12.9599609375px;
-  position: static;
   height: 174px;
   width: 272px;
   box-sizing: border-box;

@@ -5,7 +5,7 @@ import {
   Header1,
   Beatrix1,
   Vector14840549090881,
-  Divider,
+  Divider1,
 } from './styles';
 
 const LayoutHeaderPage = () => {
@@ -16,7 +16,7 @@ const LayoutHeaderPage = () => {
           <Vector14840549090881 />
         </Beatrix1>
       </Header1>
-      <Divider />
+      <Divider1 />
     </LayoutHeader1>
   );
 };

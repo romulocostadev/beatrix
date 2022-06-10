@@ -24,7 +24,6 @@ import {
   ButtonsButton7,
   Content,
   IconOutlinedPlus,
-  Button,
   TreeItem2,
   Frame12,
   IconOutlinedCaretDown2,
@@ -35,7 +34,6 @@ import {
   ButtonsButton8,
   Content1,
   IconOutlinedPlus1,
-  Button,
 } from './styles';
 
 const LayoutSiderPage = () => {

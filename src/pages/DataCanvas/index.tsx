@@ -16,13 +16,13 @@ import {
   IconOutlinedDown,
   Properties,
   IconOutlinedMenu,
-  Divider,
+  Divider2,
   CollapseBody,
   Input3,
   InputBasic,
   Prefix,
   Input,
-  Divider,
+  Divider3,
 } from './styles';
 
 const DataCanvasPage = () => {
@@ -46,7 +46,7 @@ const DataCanvasPage = () => {
               <Properties>Properties</Properties>
               <IconOutlinedMenu />
             </CollapseHead>
-            <Divider />
+            <Divider2 />
             <CollapseBody>
               <Input3>
                 <InputBasic>
@@ -55,7 +55,7 @@ const DataCanvasPage = () => {
                 </InputBasic>
               </Input3>
             </CollapseBody>
-            <Divider />
+            <Divider3 />
           </CollapseItem>
         </CollapseProperties>
       </MenuGroup2>

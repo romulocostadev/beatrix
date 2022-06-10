@@ -7,9 +7,6 @@ import IconOutlinedMenuImage from './assets/1702_147698.png';
 import GenericText from '../../components/Text';
 
 export const DataCanvas = styled.div`
-  left: 0px;
-  top: 1321px;
-  position: static;
   height: 100%;
   width: 1424px;
   box-sizing: border-box;
@@ -17,14 +14,11 @@ export const DataCanvas = styled.div`
   background-color: rgba(115, 70, 248, 0.019999999552965164);
 `;
 export const CardCreatingAStructure = styled.div`
-  left: 552px;
-  top: 24px;
-  position: inherit;
-  left: 552px;
-  top: 24px;
-  position: inherit;
   height: 402px;
   width: 322px;
+  left: 552px;
+  top: 24px;
+  position: inherit;
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -45,9 +39,6 @@ export const VectorFrame = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const CreatingAStructureVector = styled.div`
-  left: 0px;
-  top: 2.7076416015625px;
-  position: static;
   height: 195px;
   width: 272px;
   box-sizing: border-box;
@@ -85,14 +76,11 @@ export const ButtonsButton1 = styled(GenericCodeButton)`
 `;
 
 export const MenuGroup2 = styled.div`
-  left: 1184px;
-  top: 0px;
-  position: inherit;
-  left: 1184px;
-  top: 0px;
-  position: inherit;
   height: 100%;
   width: 240px;
+  left: 1184px;
+  top: 0px;
+  position: inherit;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -134,9 +122,6 @@ export const CollapseHead = styled.div`
   background-color: #ffffff;
 `;
 export const IconOutlinedDown = styled.div`
-  left: 16px;
-  top: 14px;
-  position: static;
   height: 12px;
   width: 12px;
   box-sizing: border-box;
@@ -152,9 +137,6 @@ export const Properties = styled(GenericText)`
 `;
 
 export const IconOutlinedMenu = styled.div`
-  left: 212px;
-  top: 14px;
-  position: static;
   height: 12px;
   width: 12px;
   box-sizing: border-box;
@@ -162,10 +144,13 @@ export const IconOutlinedMenu = styled.div`
   background: url(${IconOutlinedMenuImage});
   background-repeat: no-repeat;
 `;
-export const Divider = styled.div`
-  border: 1px solid #000000;
+export const Divider2 = styled.div`
+  height: 2px;
+  width: 242px;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline-offset: -0.5px;
+  padding: 0px 0px 0px 0px;
 `;
-
 export const CollapseBody = styled.div`
   height: 64px;
   width: 240px;
@@ -217,6 +202,10 @@ export const Input = styled(GenericText)`
   width: 72px;
 `;
 
-export const Divider = styled.div`
-  border: 1px solid #000000;
+export const Divider3 = styled.div`
+  height: 2px;
+  width: 242px;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline-offset: -0.5px;
+  padding: 0px 0px 0px 0px;
 `;

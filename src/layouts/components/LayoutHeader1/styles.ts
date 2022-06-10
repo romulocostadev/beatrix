@@ -34,9 +34,6 @@ export const Beatrix = styled.div`
   padding: 16px 16px 16px 16px;
 `;
 export const Vector1484054909088 = styled.div`
-  left: 16px;
-  top: 16px;
-  position: static;
   height: 16px;
   width: 84px;
   box-sizing: border-box;

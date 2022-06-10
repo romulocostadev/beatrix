@@ -4,9 +4,6 @@ import { Tabs } from 'antd';
 import GenericText from '../../components/Text';
 
 export const HomeContent = styled.div`
-  left: 0px;
-  top: 1387px;
-  position: static;
   height: 100%;
   width: 1920px;
   box-sizing: border-box;
@@ -14,11 +11,11 @@ export const HomeContent = styled.div`
   background-color: #ffffff;
 `;
 export const PageHeader = styled.div`
+  height: 86px;
+  width: 1920px;
   left: 0px;
   top: 0px;
   position: inherit;
-  height: 86px;
-  width: 1920px;
   display: flex;
   box-sizing: border-box;
   row-gap: 24px;

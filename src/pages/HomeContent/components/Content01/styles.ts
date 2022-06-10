@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-import Frame9Image from './assets/1642_149459.png';
+import Frame9Image from '../../assets/1642_149459.png';
 import GenericCodeButton from '../../../../components/Button';
-import Logo1Image from './assets/1642_149475.png';
-import Logo3Image from './assets/1642_149480.png';
+import Logo1Image from '../../assets/1642_149475.png';
+import Logo3Image from '../../assets/1642_149480.png';
 import GenericText from '../../../../components/Text';
 
 export const Content011 = styled.div`
@@ -64,9 +64,6 @@ export const Bar = styled.div`
   padding: 0px 0px 0px 0px;
 `;
 export const Logo = styled.div`
-  left: 0px;
-  top: 0px;
-  position: static;
   height: 16px;
   width: 1000px;
   box-sizing: border-box;
@@ -75,14 +72,11 @@ export const Logo = styled.div`
   background-color: #f6f6f6;
 `;
 export const Frame9 = styled.div`
-  left: 0px;
-  top: 0px;
-  position: inherit;
-  left: 0px;
-  top: 0px;
-  position: inherit;
   height: 16px;
   width: 478px;
+  left: 0px;
+  top: 0px;
+  position: inherit;
   box-sizing: border-box;
   border-radius: 12px;
   padding: 0px 0px 0px 0px;
