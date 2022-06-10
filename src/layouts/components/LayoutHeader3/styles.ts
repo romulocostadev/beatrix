@@ -1,55 +1,51 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-import Vector14840549090881Image from './assets/1531_152486.png';
+import Vector14840549090881Image from './assets/1531_152486.png' 
 
 export const LayoutHeader1 = styled.div`
-  flex-direction: column;
-  height: 48px;
-  width: 1920px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
+height: 48px;
+width: 1920px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 0px 0px;
+  background-color: #FFFFFF;
 `;
 export const Header1 = styled.div`
-  height: 48px;
-  width: 1920px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  justify-content: flex-start;
-  align-items: center;
-  padding-right: 16px;
+height: 48px;
+width: 1920px;
+display: flex;
+box-sizing: border-box;
+justify-content: flex-start;
+align-items: center;
+  padding: 0px 16.0px 0px 0px;
 `;
 export const Beatrix1 = styled.div`
-  flex-direction: column;
-  height: 48px;
-  width: 116px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  row-gap: 10px;
-  column-gap: 10px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 16px 16px 16px 16px;
-  padding-top: 16px;
-  padding-left: 16px;
-  padding-bottom: 16px;
-  padding-right: 16px;
+height: 48px;
+width: 116px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+row-gap: 10.0px;;
+column-gap: 10.0px;;
+justify-content: flex-start;
+align-items: flex-start;
+    padding: 16.0px 16.0px 16.0px 16.0px;
 `;
 export const Vector14840549090881 = styled.div`
-  left: 16px;
-  top: 16px;
-  position: static;
-  height: 16px;
-  width: 84px;
-  box-sizing: border-box;
+height: 16px;
+width: 84px;
+box-sizing: border-box;
+      padding: 0px 0px 0px 0px;
   background: url(${Vector14840549090881Image});
   background-repeat: no-repeat;
 `;
-export const Divider = styled.div`
-  border: 1px solid #000000;
+export const Divider1 = styled.div`
+height: 2px;
+width: 1922px;
+outline: 1px solid rgba(0, 0, 0, 0.1) ;
+outline-offset: -0.5px;
+padding: 0px 0px 0px 0px;
 `;
