@@ -1,212 +1,195 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-import { Form } from 'antd';
-import GenericInput from '../../components/Input';
-import GenericCodeButton from '../../components/Button';
-import Vector14840549090882Image from './assets/1524_147662.png';
-import GenericText from '../../components/Text';
+import {Layout} from 'antd' 
+import {Form} from 'antd' 
+import GenericFormItem from '../../components/FormItem'
+import GenericCodeButton from '../../components/Button'
+import Vector14840549090882Image from './assets/1524_147662.png' 
 
 export const RecoveryPassword = styled.div`
-  height: 500px;
-  width: 800px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  justify-content: flex-start;
-  align-items: flex-start;
-  box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.07999999821186066),
-    32px 32px 32px 0px rgba(0, 0, 0, 0.07999999821186066),
-    64px 64px 64px 0px rgba(0, 0, 0, 0.05000000074505806);
+width: 100%;
+height: 100%;
+position: relative;
+display: flex;
+box-sizing: border-box;
+justify-content: flex-start;
+align-items: flex-start;
+  box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.07999999821186066)  , 32px 32px 32px 0px rgba(0, 0, 0, 0.07999999821186066)  ,  64px 64px 64px 0px rgba(0, 0, 0, 0.05000000074505806)    ;
 `;
 export const Login3 = styled.div`
-  height: 500px;
-  width: 400px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-  padding: 48px 48px 48px 48px;
-  padding-top: 48px;
-  padding-left: 48px;
-  padding-bottom: 48px;
-  padding-right: 48px;
-  background-color: #ffffff;
+height: 500px;
+width: 400px;
+display: flex;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+  padding: 48.0px;
+  background-color: #FFFFFF;
 `;
-export const Content4 = styled.div`
-  flex-direction: column;
-  height: 124px;
-  width: 304px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
-  justify-content: flex-start;
-  align-items: center;
+export const Content8 = styled.div`
+height: 124px;
+width: 304px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+gap: 8.0px;
+justify-content: flex-start;
+align-items: center;
 `;
 export const Title2 = styled.div`
-  height: 24px;
-  width: 304px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: flex-start;
+height: 24px;
+width: 304px;
+display: flex;
+box-sizing: border-box;
+justify-content: center;
+align-items: flex-start;
 `;
+import GenericText from '../../components/Text'
 export const Recoveringyourpassword = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
-  color: #000000;
-  margin: 0px;
-  left: 57.5px;
-  width: 190px;
+          font-weight: 500;
+          font-size: 16px;
+          margin: 0px;
+        width: 190px;
 `;
 
 export const ViceriForm2 = styled(Form)`
-  height: 52px;
-  width: 304px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
-  justify-content: flex-start;
-  align-items: flex-start;
+height: 52px;
+width: 304px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+gap: 8.0px;
+justify-content: flex-start;
+align-items: flex-start;
+    cursor: pointer;
 `;
-export const InputFormItem5 = styled(Form.Item)`
-  width: 304px;
-  left: 0px;
-  top: 0px;
-  position: static;
+export const InputFormItem = styled(GenericFormItem)`
+        width: 304px;
+      position: static;
 `;
 
 export const InputLabelVertical5 = styled.div`
-  height: 20px;
-  width: 304px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  row-gap: 4px;
-  column-gap: 4px;
-  justify-content: flex-start;
-  align-items: center;
+height: 20px;
+width: 304px;
+display: flex;
+box-sizing: border-box;
+gap: 4.0px;
+justify-content: flex-start;
+align-items: center;
 `;
 export const InputLabel5 = styled(GenericText)`
-  font-size: 12px;
-  color: #000000;
-  margin: 0px;
-  width: 37px;
-`;
-
-export const Email2 = styled(GenericInput)`
-  top: 20px;
+          margin: 0px;
 `;
 
 export const Actions4 = styled.div`
-  height: 32px;
-  width: 304px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  justify-content: flex-end;
-  align-items: flex-start;
+height: 32px;
+width: 304px;
+display: flex;
+box-sizing: border-box;
+justify-content: flex-end;
+align-items: flex-start;
 `;
-export const ButtonsButton3 = styled(GenericCodeButton)`
-  left: 215px;
-  width: 89px;
-  height: 32px;
-  border-radius: 2px;
-  height: 32px;
+export const ButtonsButton1 = styled(GenericCodeButton)`
+      width: 89px;
+      height: 32px;
+      border-radius: 2px;
+      height: 32px;
 `;
 
 export const CreateaAccount2 = styled.div`
-  height: 500px;
-  width: 400px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 48px 48px 158px 48px;
-  padding-top: 48px;
-  padding-left: 48px;
-  padding-bottom: 158px;
-  padding-right: 48px;
-  background-color: #f7f1ff;
+height: 500px;
+width: 400px;
+display: flex;
+box-sizing: border-box;
+justify-content: center;
+align-items: flex-end;
+padding: 48.0px 48.0px 158.0px 48.0px;
+  background-color: #F7F1FF;
 `;
-export const Content5 = styled.div`
-  flex-direction: column;
-  height: 182px;
-  width: 304px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  row-gap: 40px;
-  column-gap: 40px;
-  justify-content: flex-start;
-  align-items: flex-start;
+export const Content9 = styled.div`
+height: 182px;
+width: 304px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+gap: 40.0px;
+justify-content: flex-start;
+align-items: flex-start;
 `;
 export const Logo2 = styled.div`
-  flex-direction: column;
-  height: 24px;
-  width: 126px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  justify-content: flex-start;
-  align-items: flex-start;
+height: 24px;
+width: 126px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+justify-content: flex-start;
+align-items: flex-start;
 `;
 export const Vector14840549090882 = styled.div`
-  left: 0px;
-  top: 0px;
-  position: static;
-  height: 24px;
-  width: 126px;
-  box-sizing: border-box;
+height: 24px;
+width: 126px;
+box-sizing: border-box;
   background: url(${Vector14840549090882Image});
   background-repeat: no-repeat;
 `;
 export const Text3 = styled.div`
-  flex-direction: column;
-  height: 46px;
-  width: 304px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  justify-content: flex-start;
-  align-items: flex-start;
+height: 46px;
+width: 304px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+justify-content: flex-start;
+align-items: flex-start;
 `;
 export const TextComponentdid = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
-  color: #000000;
-  margin: 0px;
-  width: 305px;
+      font-weight: 500;
+      font-size: 16px;
+      margin: 0px;
+    width: 305px;
 `;
 
 export const Wererelievedtohearthat = styled(GenericText)`
-  color: #000000;
-  margin: 0px;
-  top: 24px;
+    font-size: 14px;
+    margin: 0px;
   width: 166px;
 `;
 
 export const Actions5 = styled.div`
-  flex-direction: column;
-  height: 32px;
-  width: 304px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
-  justify-content: flex-start;
-  align-items: flex-start;
+height: 32px;
+width: 304px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+gap: 8.0px;
+justify-content: flex-start;
+align-items: flex-start;
 `;
-export const ButtonsButton4 = styled(GenericCodeButton)`
-  width: 67px;
-  height: 32px;
-  border-radius: 2px;
-  height: 32px;
+export const ButtonsButton6 = styled.div`
+height: 32px;
+width: 67px;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+gap: 8.0px;
+justify-content: flex-start;
+align-items: center;
+border-radius: 2px;
+  padding: 5.0px 16.0px 5.0px 16.0px;
+  background-color: #7447F9;
 `;
+export const Content10 = styled.div`
+height: 22px;
+width: 35px;
+display: flex;
+box-sizing: border-box;
+gap: 8.0px;
+justify-content: flex-start;
+align-items: center;
+`;
+export const Button4 = styled(GenericText)`
+      font-size: 14px;
+      color: #FFFFFF;
+      margin: 0px;
+    width: 36px;
+`;
+
