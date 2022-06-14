@@ -38,7 +38,12 @@ const LoginPage = () => {
   const navigateToLogin = () => {
     navigate('/login');
   };
-
+  const navigateToLogin2 = () => {
+    navigate('/login');
+  };
+  const navigateToLogin3 = () => {
+    navigate('/login');
+  };
   return (
     <Login>
       <Login1>
