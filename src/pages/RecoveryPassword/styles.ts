@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
-import {Layout} from 'antd' 
 import {Form} from 'antd' 
-import GenericFormItem from '../../components/FormItem'
 import GenericCodeButton from '../../components/Button'
 import Vector14840549090882Image from './assets/1524_147662.png' 
 
@@ -14,7 +12,7 @@ display: flex;
 box-sizing: border-box;
 justify-content: flex-start;
 align-items: flex-start;
-  box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.07999999821186066)  , 32px 32px 32px 0px rgba(0, 0, 0, 0.07999999821186066)  ,  64px 64px 64px 0px rgba(0, 0, 0, 0.05000000074505806)    ;
+  box-shadow: 8px 8px 8px  rgba(0, 0, 0, 0.08) , 32px 32px 32px  rgba(0, 0, 0, 0.08) ,  64px 64px 64px  rgba(0, 0, 0, 0.05)   ;
 `;
 export const Login3 = styled.div`
 height: 500px;
@@ -63,24 +61,6 @@ justify-content: flex-start;
 align-items: flex-start;
     cursor: pointer;
 `;
-export const InputFormItem = styled(GenericFormItem)`
-        width: 304px;
-      position: static;
-`;
-
-export const InputLabelVertical5 = styled.div`
-height: 20px;
-width: 304px;
-display: flex;
-box-sizing: border-box;
-gap: 4.0px;
-justify-content: flex-start;
-align-items: center;
-`;
-export const InputLabel5 = styled(GenericText)`
-          margin: 0px;
-`;
-
 export const Actions4 = styled.div`
 height: 32px;
 width: 304px;

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 import {Form} from 'antd' 
-import GenericFormItem from '../../components/FormItem'
 import Vector1484054909088Image from './assets/1521_130435.png' 
 
 export const Login = styled.div`
@@ -11,7 +10,7 @@ display: flex;
 box-sizing: border-box;
 justify-content: flex-start;
 align-items: flex-start;
-  box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.07999999821186066)  , 32px 32px 32px 0px rgba(0, 0, 0, 0.07999999821186066)  ,  64px 64px 64px 0px rgba(0, 0, 0, 0.05000000074505806)    ;
+  box-shadow: 8px 8px 8px  rgba(0, 0, 0, 0.08) , 32px 32px 32px  rgba(0, 0, 0, 0.08) ,  64px 64px 64px  rgba(0, 0, 0, 0.05)   ;
 `;
 export const Login1 = styled.div`
 height: 500px;
@@ -60,41 +59,6 @@ justify-content: flex-start;
 align-items: flex-start;
     cursor: pointer;
 `;
-export const InputFormItem = styled(GenericFormItem)`
-        width: 304px;
-      position: static;
-`;
-
-export const InputLabelVertical = styled.div`
-height: 20px;
-width: 304px;
-display: flex;
-box-sizing: border-box;
-gap: 4.0px;
-justify-content: flex-start;
-align-items: center;
-`;
-export const InputLabel = styled(GenericText)`
-          margin: 0px;
-`;
-
-export const InputFormItem1 = styled(GenericFormItem)`
-`;
-
-export const InputLabelVertical1 = styled.div`
-height: 20px;
-width: 304px;
-display: flex;
-box-sizing: border-box;
-gap: 4.0px;
-justify-content: flex-start;
-align-items: center;
-`;
-export const InputLabel1 = styled(GenericText)`
-        margin: 0px;
-      width: 57px;
-`;
-
 export const Actions = styled.div`
 justify-content: space-between;
 height: 32px;

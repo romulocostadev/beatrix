@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {useNavigate} from 'react-router-dom';
+import GenericFormItem from '../../components/FormItem' 
 import { Typography } from 'antd';
 import GenericInput from '../../components/Input' 
 
@@ -12,9 +13,6 @@ Content5,
 Title1,
 TextComponentcreating,
 ViceriForm1,
-InputFormItem,
-InputFormItem3,
-InputFormItem4,
 Actions2,
 ButtonsButton,
 CreateaAccount1,
@@ -52,30 +50,30 @@ return (
         </TextComponentcreating>
       </Title1>
       <ViceriForm1   onClick = {navigateToLogin} >
-        <InputFormItem
+        <GenericFormItem
         label={<Typography.Text ellipsis>E-mail</Typography.Text>}
         name='email'
         >
           <GenericInput
         placeholder='E-mail'
           />
-        </InputFormItem>
-        <InputFormItem3
-        label={<Typography.Text ellipsis>Password</Typography.Text>}
-        name='password'
+        </GenericFormItem>
+        <GenericFormItem
+        label={<Typography.Text ellipsis>E-mail</Typography.Text>}
+        name='email'
         >
           <GenericInput
         placeholder='E-mail'
           />
-        </InputFormItem3>
-        <InputFormItem4
-        label={<Typography.Text ellipsis>Confirm password</Typography.Text>}
-        name='confirmPassword'
+        </GenericFormItem>
+        <GenericFormItem
+        label={<Typography.Text ellipsis>E-mail</Typography.Text>}
+        name='email'
         >
           <GenericInput
         placeholder='E-mail'
           />
-        </InputFormItem4>
+        </GenericFormItem>
       </ViceriForm1>
       <Actions2    >
         <ButtonsButton  
