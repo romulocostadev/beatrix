@@ -59,6 +59,9 @@ const LoginPage = () => {
             >
               <GenericInput placeholder="E-mail" />
             </GenericFormItem>
+            <div>
+              <div>teste</div>
+            </div>
             <GenericFormItem
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
               name="email"
