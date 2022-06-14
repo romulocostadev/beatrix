@@ -57,6 +57,7 @@ const LoginPage = () => {
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
               name="email"
             >
+              <div>kairo</div>
               <GenericInput placeholder="E-mail" />
             </GenericFormItem>
             <GenericFormItem
