@@ -3,7 +3,7 @@ import RouteLogin from '../layouts/RouteLogin';
 import Login from '../pages/Login';
 import CreateAccount from '../pages/CreateAccount';
 import RecoveryPassword from '../pages/RecoveryPassword';
-import Home from '../layouts/Home1';
+import Home from '../layouts/Home';
 import HomeContent from '../pages/HomeContent';
 import Application from '../layouts/Application';
 import ApplicationContent from '../pages/ApplicationContent';
@@ -15,7 +15,7 @@ import ApplicationUpdated from '../layouts/ApplicationUpdated';
 const IndexRoutes = () => (
   <Routes>
     <Route path="" element={<RouteLogin />} />
-    <Route path="/auth" element={<RouteLogin />}>
+    <Route path="/route-login" element={<RouteLogin />}>
       <Route index element={<Login />} />
       <Route path="login" element={<Login />} />
       <Route path="create-account" element={<CreateAccount />} />

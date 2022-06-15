@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import IconOutlinedDown1Image from './assets/1702_154361.png';
 import IconOutlinedMenu1Image from './assets/1702_154363.png';
+import VectorComponenticonoutlineddirImage from './assets/I1702_154366_918_110189.png';
 import DataVectorImage from './assets/1702_150552.png';
 import GenericCodeButton from '../../components/Button';
 import GenericText from '../../components/Text';
@@ -157,6 +158,7 @@ export const VectorComponenticonoutlineddir = styled.div`
   height: 12px;
   width: 12px;
   box-sizing: border-box;
+  background: url(${VectorComponenticonoutlineddirImage});
   background-repeat: no-repeat;
 `;
 export const Divider5 = styled.div`
