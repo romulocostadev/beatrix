@@ -19,7 +19,7 @@ import {
   Divider2,
   CollapseBody,
   Input3,
-  InputBasic,
+  InputBasic3,
   Prefix,
   Input,
   Divider3,
@@ -49,10 +49,10 @@ const DataCanvasPage = () => {
             <Divider2 />
             <CollapseBody>
               <Input3>
-                <InputBasic>
+                <InputBasic3>
                   <Prefix>Name:</Prefix>
                   <Input>SunChemical</Input>
-                </InputBasic>
+                </InputBasic3>
               </Input3>
             </CollapseBody>
             <Divider3 />

@@ -44,8 +44,6 @@ export const Title = styled.div`
   align-items: flex-start;
 `;
 export const TextComponentcreating = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
   margin: 0px;
   width: 245px;
 `;
@@ -122,13 +120,12 @@ export const Text2 = styled.div`
   align-items: flex-start;
 `;
 export const Alreadyhaveanaccount = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
   margin: 0px;
   width: 305px;
 `;
 
 export const Wearewaitingforyou = styled(GenericText)`
+  font-weight: 400;
   font-size: 14px;
   margin: 0px;
   width: 143px;
@@ -144,7 +141,7 @@ export const Actions3 = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
 `;
-export const ButtonsButton5 = styled.div`
+export const ButtonsButton12 = styled.div`
   height: 32px;
   width: 67px;
   display: flex;
@@ -167,6 +164,7 @@ export const Content7 = styled.div`
   align-items: center;
 `;
 export const Button3 = styled(GenericText)`
+  font-weight: 400;
   font-size: 14px;
   color: #ffffff;
   margin: 0px;

@@ -45,8 +45,6 @@ export const Title1 = styled.div`
   align-items: flex-start;
 `;
 export const Recoveringyourpassword = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
   margin: 0px;
   width: 190px;
 `;
@@ -123,13 +121,12 @@ export const Text3 = styled.div`
   align-items: flex-start;
 `;
 export const TextComponentdid = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
   margin: 0px;
   width: 305px;
 `;
 
 export const Wererelievedtohearthat = styled(GenericText)`
+  font-weight: 400;
   font-size: 14px;
   margin: 0px;
   width: 166px;
@@ -145,7 +142,7 @@ export const Actions5 = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
 `;
-export const ButtonsButton6 = styled.div`
+export const ButtonsButton13 = styled.div`
   height: 32px;
   width: 67px;
   display: flex;
@@ -168,6 +165,7 @@ export const Content10 = styled.div`
   align-items: center;
 `;
 export const Button4 = styled(GenericText)`
+  font-weight: 400;
   font-size: 14px;
   color: #ffffff;
   margin: 0px;

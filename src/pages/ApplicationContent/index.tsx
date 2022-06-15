@@ -4,7 +4,7 @@ import GenericCodeButton from '../../components/Button';
 
 import {
   ApplicationContent,
-  Title,
+  Title3,
   WelcometoBeatrix,
   Seehowtogetstarted,
   Cards,
@@ -18,22 +18,22 @@ import {
   VectorComponentundrawprototyp,
   ConnectFigma,
   TextComponentconnect,
-  ButtonsButton2,
+  ButtonsButton4,
   InputCard,
   CardVector2,
   Undrawdatainputfxv21,
   Datainput,
   TextComponentstart,
-  ButtonsButton3,
+  ButtonsButton5,
 } from './styles';
 
 const ApplicationContentPage = () => {
   return (
     <ApplicationContent>
-      <Title>
+      <Title3>
         <WelcometoBeatrix>Welcome to Beatrix!</WelcometoBeatrix>
         <Seehowtogetstarted>See how to get started...</Seehowtogetstarted>
-      </Title>
+      </Title3>
       <Cards>
         <LessonsCard>
           <CardVector>
@@ -51,7 +51,7 @@ const ApplicationContentPage = () => {
           <TextComponentconnect>
             Connect to your Figma account.
           </TextComponentconnect>
-          <ButtonsButton2 type="primary">Connect to Figma</ButtonsButton2>
+          <ButtonsButton4 type="primary">Connect to Figma</ButtonsButton4>
         </FigmaCard>
         <InputCard>
           <CardVector2>
@@ -61,7 +61,7 @@ const ApplicationContentPage = () => {
           <TextComponentstart>
             Start a solution by entering data.
           </TextComponentstart>
-          <ButtonsButton3 type="primary">Get started</ButtonsButton3>
+          <ButtonsButton5 type="primary">Get started</ButtonsButton5>
         </InputCard>
       </Cards>
     </ApplicationContent>

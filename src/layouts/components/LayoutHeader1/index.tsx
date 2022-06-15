@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { LayoutHeader, Header, Beatrix, Vector1484054909088 } from './styles';
+import { LayoutHeader, Header, Beatrix, Vector14840549090883 } from './styles';
 
 const LayoutHeaderPage = () => {
   return (
     <LayoutHeader>
       <Header>
         <Beatrix>
-          <Vector1484054909088 />
+          <Vector14840549090883 />
         </Beatrix>
       </Header>
     </LayoutHeader>

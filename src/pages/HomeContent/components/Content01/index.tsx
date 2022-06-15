@@ -6,30 +6,30 @@ import {
   Lessons2,
   Lessons1,
   Bar,
-  Logo,
+  Logo3,
   Frame9,
-  ButtonsButton4,
+  ButtonsButton6,
   Stage,
   Creatingdata,
   Howtocreateadataworkflow,
-  ButtonsButton5,
+  ButtonsButton7,
   Solutions1,
-  Title1,
+  Title4,
   Solutions,
-  ButtonsButton6,
+  ButtonsButton8,
   Sorter,
   Sortby,
   Name,
   Lastmodified,
   MySolutions,
   Solution02,
-  Logo1,
-  Logo2,
+  Logo4,
+  Logo5,
   Veiling,
   Apr1820221356,
   Solution03,
-  Logo3,
-  Logo4,
+  Logo6,
+  Logo7,
   Iris,
   Apr1720221356,
 } from './styles';
@@ -41,11 +41,11 @@ const Content01Page = () => {
         <Lessons2>
           <Lessons1>Lessons</Lessons1>
           <Bar>
-            <Logo>
+            <Logo3>
               <Frame9 />
-            </Logo>
+            </Logo3>
           </Bar>
-          <ButtonsButton4 type="link">Start lesson</ButtonsButton4>
+          <ButtonsButton6 type="link">Start lesson</ButtonsButton6>
         </Lessons2>
         <Stage>
           <Creatingdata>Creating data</Creatingdata>
@@ -53,13 +53,13 @@ const Content01Page = () => {
             How to create a data workflow.
           </Howtocreateadataworkflow>
         </Stage>
-        <ButtonsButton5 type="link">View all lessons</ButtonsButton5>
+        <ButtonsButton7 type="link">View all lessons</ButtonsButton7>
       </LessonsCard1>
       <Solutions1>
-        <Title1>
+        <Title4>
           <Solutions>Solutions</Solutions>
-          <ButtonsButton6 type="primary">New solution</ButtonsButton6>
-        </Title1>
+          <ButtonsButton8 type="primary">New solution</ButtonsButton8>
+        </Title4>
         <Sorter>
           <Sortby>Sort by</Sortby>
           <Name>name</Name>
@@ -67,18 +67,18 @@ const Content01Page = () => {
         </Sorter>
         <MySolutions>
           <Solution02>
-            <Logo1 />
-            <Logo2>
+            <Logo4 />
+            <Logo5>
               <Veiling>Veiling</Veiling>
               <Apr1820221356>Apr 18, 2022, 13:56</Apr1820221356>
-            </Logo2>
+            </Logo5>
           </Solution02>
           <Solution03>
-            <Logo3 />
-            <Logo4>
+            <Logo6 />
+            <Logo7>
               <Iris>Iris</Iris>
               <Apr1720221356>Apr 17, 2022, 13:56</Apr1720221356>
-            </Logo4>
+            </Logo7>
           </Solution03>
         </MySolutions>
       </Solutions1>

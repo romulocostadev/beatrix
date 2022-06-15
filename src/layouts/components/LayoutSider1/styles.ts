@@ -15,7 +15,6 @@ export const LayoutSider = styled.div`
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
   background-color: #9a71ff;
 `;
 export const MenuGroup = styled.div`
@@ -26,7 +25,6 @@ export const MenuGroup = styled.div`
   box-sizing: border-box;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
   background-color: #ffffff;
 `;
 export const FirstSection = styled.div`
@@ -37,7 +35,6 @@ export const FirstSection = styled.div`
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px 0px 0px 0px;
 `;
 export const MenuItem = styled.div`
   height: 64px;
@@ -45,25 +42,23 @@ export const MenuItem = styled.div`
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   background-color: #ffffff;
 `;
 export const IconOutlinedProject = styled.div`
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconOutlinedProjectImage});
   background-repeat: no-repeat;
 `;
 export const Label = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 15.5px;
-  top: 34px;
   width: 38px;
 `;
 
@@ -73,25 +68,23 @@ export const MenuItem1 = styled.div`
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   background-color: #ffffff;
 `;
 export const IconOutlinedPartition = styled.div`
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconOutlinedPartitionImage});
   background-repeat: no-repeat;
 `;
 export const Label1 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 8.5px;
-  top: 34px;
   width: 52px;
 `;
 
@@ -101,27 +94,23 @@ export const MenuItem2 = styled.div`
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   background-color: #f7f1ff;
 `;
 export const IconOutlinedDatabase = styled.div`
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconOutlinedDatabaseImage});
   background-repeat: no-repeat;
 `;
 export const Label2 = styled(GenericText)`
-  font-weight: 500;
+  font-size: 12px;
   color: #7447f9;
   margin: 0px;
-  left: 21.5px;
-  top: 34px;
   width: 26px;
 `;
 
@@ -131,25 +120,23 @@ export const MenuItem3 = styled.div`
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   background-color: #ffffff;
 `;
 export const IconOutlinedApi = styled.div`
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconOutlinedApiImage});
   background-repeat: no-repeat;
 `;
 export const Label3 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 14px;
-  top: 34px;
   width: 41px;
 `;
 
@@ -161,7 +148,6 @@ export const SecondSection = styled.div`
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
 `;
 export const MenuItem4 = styled.div`
   height: 64px;
@@ -169,25 +155,23 @@ export const MenuItem4 = styled.div`
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   background-color: #ffffff;
 `;
 export const Icon = styled.div`
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconImage});
   background-repeat: no-repeat;
 `;
 export const Label4 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 12px;
-  top: 34px;
   width: 45px;
 `;
 
@@ -197,25 +181,23 @@ export const MenuItem5 = styled.div`
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   background-color: #ffffff;
 `;
 export const Icon1 = styled.div`
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${Icon1Image});
   background-repeat: no-repeat;
 `;
 export const Label5 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 21.5px;
-  top: 34px;
   width: 26px;
 `;
 
@@ -224,5 +206,4 @@ export const Divider = styled.div`
   width: 2px;
   outline: 1px solid rgba(0, 0, 0, 0.1);
   outline-offset: -0.5px;
-  padding: 0px 0px 0px 0px;
 `;

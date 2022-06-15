@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import IconOutlinedDown1Image from './assets/1702_154361.png';
 import IconOutlinedMenu1Image from './assets/1702_154363.png';
+import VectorComponenticonoutlineddirImage from './assets/I1702_154366_918_110189.png';
 import DataVectorImage from './assets/1702_150552.png';
 import GenericCodeButton from '../../components/Button';
 import GenericText from '../../components/Text';
@@ -10,7 +11,6 @@ export const DataCanvasDatabase = styled.div`
   height: 100%;
   width: 1424px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background-color: rgba(115, 70, 248, 0.019999999552965164);
 `;
 export const MenuGroup3 = styled.div`
@@ -18,13 +18,12 @@ export const MenuGroup3 = styled.div`
   width: 240px;
   left: 1184px;
   top: 0px;
-  position: inherit;
+  position: absolute;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
   background-color: #ffffff;
 `;
 export const CollapseProperties1 = styled.div`
@@ -34,7 +33,6 @@ export const CollapseProperties1 = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
   background-color: #dadada;
 `;
 export const CollapseItem1 = styled.div`
@@ -45,15 +43,13 @@ export const CollapseItem1 = styled.div`
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
 `;
 export const CollapseHead1 = styled.div`
   height: 40px;
   width: 240px;
   display: flex;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: flex-start;
   align-items: center;
   padding: 10px 16px 10px 16px;
@@ -63,14 +59,13 @@ export const IconOutlinedDown1 = styled.div`
   height: 12px;
   width: 12px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconOutlinedDown1Image});
   background-repeat: no-repeat;
 `;
 export const Properties1 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 36px;
-  top: 10px;
   width: 169px;
 `;
 
@@ -78,7 +73,6 @@ export const IconOutlinedMenu1 = styled.div`
   height: 12px;
   width: 12px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconOutlinedMenu1Image});
   background-repeat: no-repeat;
 `;
@@ -87,7 +81,6 @@ export const Divider4 = styled.div`
   width: 242px;
   outline: 1px solid rgba(0, 0, 0, 0.1);
   outline-offset: -0.5px;
-  padding: 0px 0px 0px 0px;
 `;
 export const CollapseBody1 = styled.div`
   height: 84px;
@@ -95,11 +88,10 @@ export const CollapseBody1 = styled.div`
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 4px;
-  column-gap: 4px;
+  gap: 4px;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
   background-color: #ffffff;
 `;
 export const Input4 = styled.div`
@@ -107,36 +99,33 @@ export const Input4 = styled.div`
   width: 224px;
   display: flex;
   box-sizing: border-box;
-  row-gap: 4px;
-  column-gap: 4px;
+  gap: 4px;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px 0px 0px 0px;
 `;
-export const InputBasic1 = styled.div`
+export const InputBasic4 = styled.div`
   height: 32px;
   width: 224px;
   display: flex;
   box-sizing: border-box;
-  row-gap: 4px;
-  column-gap: 4px;
+  gap: 4px;
   justify-content: flex-start;
   align-items: center;
   border-radius: 2px;
   padding: 2px 8px 2px 8px;
 `;
 export const Prefix1 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
-  left: 8px;
-  top: 6px;
   width: 36px;
 `;
 
 export const Input1 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 47px;
-  top: 6px;
   width: 65px;
 `;
 
@@ -145,24 +134,23 @@ export const Dropdown1 = styled.div`
   width: 224px;
   display: flex;
   box-sizing: border-box;
-  row-gap: 4px;
-  column-gap: 4px;
+  gap: 4px;
   justify-content: flex-start;
   align-items: center;
   padding: 0px 8px 0px 8px;
 `;
 export const Prefix2 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
-  left: 8px;
-  top: 6px;
   width: 30px;
 `;
 
 export const Input2 = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 41px;
-  top: 6px;
   width: 160px;
 `;
 
@@ -170,7 +158,7 @@ export const VectorComponenticonoutlineddir = styled.div`
   height: 12px;
   width: 12px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
+  background: url(${VectorComponenticonoutlineddirImage});
   background-repeat: no-repeat;
 `;
 export const Divider5 = styled.div`
@@ -178,14 +166,13 @@ export const Divider5 = styled.div`
   width: 242px;
   outline: 1px solid rgba(0, 0, 0, 0.1);
   outline-offset: -0.5px;
-  padding: 0px 0px 0px 0px;
 `;
 export const AInstanceNeedsADatabase = styled.div`
   height: 402px;
   width: 322px;
   left: 552px;
   top: 24px;
-  position: inherit;
+  position: absolute;
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -193,7 +180,7 @@ export const AInstanceNeedsADatabase = styled.div`
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  padding: 24px 24px 24px 24px;
+  padding: 24px;
   background-color: #ffffff;
 `;
 export const VectorFrame1 = styled.div`
@@ -203,37 +190,28 @@ export const VectorFrame1 = styled.div`
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 0px 0px;
 `;
 export const DataVector = styled.div`
   height: 174px;
   width: 272px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${DataVectorImage});
   background-repeat: no-repeat;
 `;
 export const AInstanceNeedsaDatabase = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
   color: #7447f9;
   margin: 0px;
-  left: 55px;
-  top: 248px;
   width: 211px;
 `;
 
 export const TextComponentdont = styled(GenericText)`
-  font-size: 16px;
+  font-weight: 400;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
-  left: 49.5px;
-  top: 296px;
   width: 222px;
 `;
 
 export const HandleNewDatabase = styled(GenericCodeButton)`
-  left: 98.5px;
   width: 123px;
   height: 32px;
   border-radius: 2px;

@@ -43,10 +43,7 @@ export const Title = styled.div`
   align-items: flex-start;
 `;
 export const Welcomeback = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
   margin: 0px;
-  width: 110px;
 `;
 
 export const ViceriForm = styled(Form)`
@@ -69,7 +66,7 @@ export const Actions = styled.div`
   justify-content: space-between;
   align-items: flex-start;
 `;
-export const ButtonsButton2 = styled.div`
+export const ButtonsButton9 = styled.div`
   height: 22px;
   width: 123px;
   display: flex;
@@ -90,13 +87,14 @@ export const Content1 = styled.div`
   align-items: center;
 `;
 export const Button = styled(GenericText)`
+  font-weight: 400;
   font-size: 14px;
   color: #7447f9;
   margin: 0px;
   width: 124px;
 `;
 
-export const ButtonsButton3 = styled.div`
+export const ButtonsButton10 = styled.div`
   height: 32px;
   width: 67px;
   display: flex;
@@ -119,6 +117,7 @@ export const Content2 = styled.div`
   align-items: center;
 `;
 export const Button1 = styled(GenericText)`
+  font-weight: 400;
   font-size: 14px;
   color: #ffffff;
   margin: 0px;
@@ -171,13 +170,12 @@ export const Text1 = styled.div`
   align-items: flex-start;
 `;
 export const Comecreatethefuture = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
   margin: 0px;
   width: 305px;
 `;
 
 export const TextComponentjoin = styled(GenericText)`
+  font-weight: 400;
   font-size: 14px;
   margin: 0px;
   width: 189px;
@@ -193,7 +191,7 @@ export const Actions1 = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
 `;
-export const ButtonsButton4 = styled.div`
+export const ButtonsButton11 = styled.div`
   height: 32px;
   width: 73px;
   display: flex;
@@ -216,6 +214,7 @@ export const Content4 = styled.div`
   align-items: center;
 `;
 export const Button2 = styled(GenericText)`
+  font-weight: 400;
   font-size: 14px;
   color: #ffffff;
   margin: 0px;

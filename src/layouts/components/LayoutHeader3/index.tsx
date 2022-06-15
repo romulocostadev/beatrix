@@ -4,7 +4,7 @@ import {
   LayoutHeader1,
   Header1,
   Beatrix1,
-  Vector14840549090881,
+  Vector14840549090884,
   Divider1,
 } from './styles';
 
@@ -13,7 +13,7 @@ const LayoutHeaderPage = () => {
     <LayoutHeader1>
       <Header1>
         <Beatrix1>
-          <Vector14840549090881 />
+          <Vector14840549090884 />
         </Beatrix1>
       </Header1>
       <Divider1 />

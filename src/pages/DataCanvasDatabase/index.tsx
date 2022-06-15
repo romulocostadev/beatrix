@@ -12,7 +12,7 @@ import {
   Divider4,
   CollapseBody1,
   Input4,
-  InputBasic1,
+  InputBasic4,
   Prefix1,
   Input1,
   Dropdown1,
@@ -42,10 +42,10 @@ const DataCanvasDatabasePage = () => {
             <Divider4 />
             <CollapseBody1>
               <Input4>
-                <InputBasic1>
+                <InputBasic4>
                   <Prefix1>Name:</Prefix1>
                   <Input1>PostgreSQL</Input1>
-                </InputBasic1>
+                </InputBasic4>
               </Input4>
               <Dropdown1>
                 <Prefix2>Type:</Prefix2>
@@ -64,7 +64,7 @@ const DataCanvasDatabasePage = () => {
         <AInstanceNeedsaDatabase>
           A Instance Needs a Database
         </AInstanceNeedsaDatabase>
-        <TextComponentdont>Dont worry, were almost there.</TextComponentdont>
+        <TextComponentdont>Don't worry, we're almost there.</TextComponentdont>
         <HandleNewDatabase type="primary">New Database</HandleNewDatabase>
       </AInstanceNeedsADatabase>
     </DataCanvasDatabase>

@@ -22,7 +22,7 @@ import {
   Alreadyhaveanaccount,
   Wearewaitingforyou,
   Actions3,
-  ButtonsButton5,
+  ButtonsButton12,
   Content7,
   Button3,
 } from './styles';
@@ -80,11 +80,11 @@ const CreateAccountPage = () => {
             <Wearewaitingforyou>We are waiting for you.</Wearewaitingforyou>
           </Text2>
           <Actions3>
-            <ButtonsButton5>
+            <ButtonsButton12>
               <Content7>
                 <Button3>Login</Button3>
               </Content7>
-            </ButtonsButton5>
+            </ButtonsButton12>
           </Actions3>
         </Content6>
       </CreateaAccount1>

@@ -10,7 +10,6 @@ export const DataCanvas = styled.div`
   height: 100%;
   width: 1424px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background-color: rgba(115, 70, 248, 0.019999999552965164);
 `;
 export const CardCreatingAStructure = styled.div`
@@ -18,7 +17,7 @@ export const CardCreatingAStructure = styled.div`
   width: 322px;
   left: 552px;
   top: 24px;
-  position: inherit;
+  position: absolute;
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -26,7 +25,7 @@ export const CardCreatingAStructure = styled.div`
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  padding: 24px 24px 24px 24px;
+  padding: 24px;
   background-color: #ffffff;
 `;
 export const VectorFrame = styled.div`
@@ -36,38 +35,28 @@ export const VectorFrame = styled.div`
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 0px 0px;
 `;
 export const CreatingAStructureVector = styled.div`
   height: 195px;
   width: 272px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${CreatingAStructureVectorImage});
   background-repeat: no-repeat;
 `;
 export const CreatingaStructure = styled(GenericText)`
-  font-weight: 500;
-  font-size: 16px;
   color: #7447f9;
   margin: 0px;
-  left: 88px;
-  top: 248px;
   width: 145px;
 `;
 
 export const Asolutionneedsainstance = styled(GenericText)`
-  font-size: 16px;
+  font-weight: 400;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
-  left: 59.5px;
-  top: 296px;
   width: 202px;
 `;
 
-export const ButtonsButton1 = styled(GenericCodeButton)`
-  left: 101.5px;
-  top: 344px;
+export const ButtonsButton3 = styled(GenericCodeButton)`
   position: static;
   width: 117px;
   height: 32px;
@@ -80,13 +69,12 @@ export const MenuGroup2 = styled.div`
   width: 240px;
   left: 1184px;
   top: 0px;
-  position: inherit;
+  position: absolute;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
   background-color: #ffffff;
 `;
 export const CollapseProperties = styled.div`
@@ -96,7 +84,6 @@ export const CollapseProperties = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
   background-color: #dadada;
 `;
 export const CollapseItem = styled.div`
@@ -107,15 +94,13 @@ export const CollapseItem = styled.div`
   box-sizing: border-box;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 0px 0px 0px;
 `;
 export const CollapseHead = styled.div`
   height: 40px;
   width: 240px;
   display: flex;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: flex-start;
   align-items: center;
   padding: 10px 16px 10px 16px;
@@ -125,14 +110,13 @@ export const IconOutlinedDown = styled.div`
   height: 12px;
   width: 12px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconOutlinedDownImage});
   background-repeat: no-repeat;
 `;
 export const Properties = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 36px;
-  top: 10px;
   width: 169px;
 `;
 
@@ -140,7 +124,6 @@ export const IconOutlinedMenu = styled.div`
   height: 12px;
   width: 12px;
   box-sizing: border-box;
-  padding: 0px 0px 0px 0px;
   background: url(${IconOutlinedMenuImage});
   background-repeat: no-repeat;
 `;
@@ -149,7 +132,6 @@ export const Divider2 = styled.div`
   width: 242px;
   outline: 1px solid rgba(0, 0, 0, 0.1);
   outline-offset: -0.5px;
-  padding: 0px 0px 0px 0px;
 `;
 export const CollapseBody = styled.div`
   height: 64px;
@@ -157,8 +139,7 @@ export const CollapseBody = styled.div`
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  row-gap: 8px;
-  column-gap: 8px;
+  gap: 8px;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 16px 8px 16px 8px;
@@ -169,36 +150,33 @@ export const Input3 = styled.div`
   width: 224px;
   display: flex;
   box-sizing: border-box;
-  row-gap: 4px;
-  column-gap: 4px;
+  gap: 4px;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px 0px 0px 0px;
 `;
-export const InputBasic = styled.div`
+export const InputBasic3 = styled.div`
   height: 32px;
   width: 224px;
   display: flex;
   box-sizing: border-box;
-  row-gap: 4px;
-  column-gap: 4px;
+  gap: 4px;
   justify-content: flex-start;
   align-items: center;
   border-radius: 2px;
   padding: 2px 8px 2px 8px;
 `;
 export const Prefix = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.45);
   margin: 0px;
-  left: 8px;
-  top: 6px;
   width: 36px;
 `;
 
 export const Input = styled(GenericText)`
+  font-weight: 400;
+  font-size: 12px;
   margin: 0px;
-  left: 47px;
-  top: 6px;
   width: 72px;
 `;
 
@@ -207,5 +185,4 @@ export const Divider3 = styled.div`
   width: 242px;
   outline: 1px solid rgba(0, 0, 0, 0.1);
   outline-offset: -0.5px;
-  padding: 0px 0px 0px 0px;
 `;

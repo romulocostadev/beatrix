@@ -22,7 +22,7 @@ import {
   TextComponentdid,
   Wererelievedtohearthat,
   Actions5,
-  ButtonsButton6,
+  ButtonsButton13,
   Content10,
   Button4,
 } from './styles';
@@ -68,11 +68,11 @@ const RecoveryPasswordPage = () => {
             </Wererelievedtohearthat>
           </Text3>
           <Actions5>
-            <ButtonsButton6>
+            <ButtonsButton13>
               <Content10>
                 <Button4>Login</Button4>
               </Content10>
-            </ButtonsButton6>
+            </ButtonsButton13>
           </Actions5>
         </Content9>
       </CreateaAccount2>
