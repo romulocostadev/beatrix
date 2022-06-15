@@ -1,40 +1,135 @@
 import styled from 'styled-components';
 
-import Vector14840549090883Image from './assets/1531_133338.png';
+import GenericCodeButton from '../../../components/Button';
+import InkControlSymbolImage from './assets/979_114568.png';
+import IconOutlinedUserImage from './assets/979_114575.png';
+import VectorComponenticonoutlineddirImage from './assets/I979_114576_180_40425.png';
+import GenericText from '../../../components/Text';
 
 export const LayoutHeader = styled.div`
-  height: 48px;
-  width: 1920px;
+  height: 64px;
+  width: 1664px;
   display: flex;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
 `;
 export const Header = styled.div`
-  height: 48px;
-  width: 1920px;
+  justify-content: space-between;
+  height: 64px;
+  width: 1664px;
   display: flex;
   box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  background-color: #ffffff;
+`;
+export const Wrapper = styled.div`
+  height: 32px;
+  width: 175px;
+  display: flex;
+  box-sizing: border-box;
+  gap: 16px;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px 16px 0px 0px;
 `;
-export const Beatrix = styled.div`
-  height: 48px;
-  width: 116px;
+export const ButtonsButton = styled(GenericCodeButton)`
+  position: static;
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  height: 32px;
+`;
+
+export const InkControlSymbol = styled.div`
+  height: 23px;
+  width: 127px;
+  background-color: #ef3526;
+  background: url(${InkControlSymbolImage});
+  background-repeat: no-repeat;
+`;
+export const Actions = styled.div`
+  height: 32px;
+  width: 261px;
   display: flex;
-  flex-direction: column;
   box-sizing: border-box;
-  gap: 10px;
+  gap: 16px;
   justify-content: flex-start;
-  align-items: flex-start;
-  padding: 16px;
+  align-items: center;
 `;
-export const Vector14840549090883 = styled.div`
-  height: 16px;
-  width: 84px;
+export const ButtonsButton1 = styled(GenericCodeButton)`
+  width: 34px;
+  height: 32px;
+  border-radius: 2px;
+  height: 32px;
+`;
+
+export const ButtonsButton = styled(GenericCodeButton)`
+  position: static;
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  height: 32px;
+`;
+
+export const Frame43 = styled.div`
+  height: 32px;
+  width: 163px;
+  display: flex;
   box-sizing: border-box;
-  background: url(${Vector14840549090883Image});
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+`;
+export const Avatar = styled.div`
+  height: 32px;
+  width: 32px;
+  box-sizing: border-box;
+  border-radius: 96px;
+`;
+export const Rectangle3 = styled.div`
+  height: 32px;
+  width: 32px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: #c0c0c0;
+`;
+export const IconOutlinedUser = styled.div`
+  height: 18px;
+  width: 18px;
+  left: 7px;
+  top: 7px;
+  position: absolute;
+  box-sizing: border-box;
+  background: url(${IconOutlinedUserImage});
+  background-repeat: no-repeat;
+`;
+export const InstanceComponentdropdowntrigger = styled.div`
+  height: 22px;
+  width: 123px;
+  display: flex;
+  box-sizing: border-box;
+  gap: 2px;
+  justify-content: flex-start;
+  align-items: center;
+`;
+export const Dropdown = styled(GenericText)`
+  font-family: Roboto;
+  line-height: 22px;
+  color: #2c292b;
+  text-align: left;
+  margin: 0px;
+  position: static;
+  width: 110px;
+`;
+
+export const VectorComponenticonoutlineddir = styled.div`
+  height: 12px;
+  width: 12px;
+  box-sizing: border-box;
+  background: url(${VectorComponenticonoutlineddirImage});
   background-repeat: no-repeat;
 `;
