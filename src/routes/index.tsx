@@ -15,7 +15,7 @@ import ApplicationUpdated from '../layouts/ApplicationUpdated';
 const IndexRoutes = () => (
   <Routes>
     <Route path="" element={<RouteLogin />} />
-    <Route path="/route-login" element={<RouteLogin />}>
+    <Route path="/auth" element={<RouteLogin />}>
       <Route index element={<Login />} />
       <Route path="login" element={<Login />} />
       <Route path="create-account" element={<CreateAccount />} />
