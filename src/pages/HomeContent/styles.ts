@@ -12,13 +12,7 @@ export const HomeContent = styled.div`
 export const PageHeader = styled.div`
   height: 86px;
   width: 1920px;
-  left: 0px;
-  top: 0px;
-<<<<<<< HEAD
   position: inherit;
-=======
-  position: absolute;
->>>>>>> design2code-generated-code
   display: flex;
   box-sizing: border-box;
   gap: 24px;

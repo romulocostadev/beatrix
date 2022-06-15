@@ -1,16 +1,9 @@
 import styled from 'styled-components';
 
-<<<<<<< HEAD
 import Frame9Image from '../../assets/1642_149459.png';
 import GenericCodeButton from '../../../../components/Button';
 import Logo4Image from '../../assets/1642_149475.png';
 import Logo6Image from '../../assets/1642_149480.png';
-=======
-import Frame9Image from './assets/1642_149459.png';
-import GenericCodeButton from '../../../../components/Button';
-import Logo4Image from './assets/1642_149475.png';
-import Logo6Image from './assets/1642_149480.png';
->>>>>>> design2code-generated-code
 import GenericText from '../../../../components/Text';
 
 export const Content011 = styled.div`
@@ -73,13 +66,7 @@ export const Logo3 = styled.div`
 export const Frame9 = styled.div`
   height: 16px;
   width: 478px;
-  left: 0px;
-  top: 0px;
-<<<<<<< HEAD
   position: inherit;
-=======
-  position: absolute;
->>>>>>> design2code-generated-code
   box-sizing: border-box;
   border-radius: 12px;
   background-color: #7447f9;

@@ -6,10 +6,6 @@ import VectorImage from './assets/I1702_161585_962_111298.png';
 import Vector1Image from './assets/I1702_161585_962_111299.png';
 import Vector2Image from './assets/I1702_161585_962_111300.png';
 import VectorComponenticonoutlineddir1Image from './assets/1702_161588.png';
-<<<<<<< HEAD
-=======
-import IconOutlinedPlayCircleImage from './assets/I1702_161589_125_67376.png';
->>>>>>> design2code-generated-code
 import GenericText from '../../../components/Text';
 
 export const LayoutHeader2 = styled.div`
@@ -111,11 +107,7 @@ export const Group2069859144864 = styled.div`
   width: 16px;
   left: 0px;
   top: 9.1552734375e-5px;
-<<<<<<< HEAD
-  position: inherit;
-=======
   position: absolute;
->>>>>>> design2code-generated-code
   box-sizing: border-box;
 `;
 export const Group = styled.div`
@@ -123,11 +115,7 @@ export const Group = styled.div`
   width: 15px;
   left: 0.6953125px;
   top: 0.663482666015625px;
-<<<<<<< HEAD
-  position: inherit;
-=======
   position: absolute;
->>>>>>> design2code-generated-code
   box-sizing: border-box;
   background: url(${GroupImage});
   background-repeat: no-repeat;
@@ -137,11 +125,7 @@ export const Vector = styled.div`
   width: 16px;
   left: 0px;
   top: 0px;
-<<<<<<< HEAD
-  position: inherit;
-=======
   position: absolute;
->>>>>>> design2code-generated-code
   box-sizing: border-box;
   background-color: #000000;
   background: url(${VectorImage});
@@ -152,11 +136,7 @@ export const Vector1 = styled.div`
   width: 15px;
   left: 0.69140625px;
   top: 0.663238525390625px;
-<<<<<<< HEAD
-  position: inherit;
-=======
   position: absolute;
->>>>>>> design2code-generated-code
   box-sizing: border-box;
   background-color: #346892;
   background: url(${Vector1Image});
@@ -167,11 +147,7 @@ export const Vector2 = styled.div`
   width: 15px;
   left: 0.44921875px;
   top: 0.417388916015625px;
-<<<<<<< HEAD
-  position: inherit;
-=======
   position: absolute;
->>>>>>> design2code-generated-code
   box-sizing: border-box;
   background-color: #ffffff;
   background: url(${Vector2Image});
@@ -226,10 +202,6 @@ export const IconOutlinedPlayCircle = styled.div`
   height: 16px;
   width: 16px;
   box-sizing: border-box;
-<<<<<<< HEAD
-=======
-  background: url(${IconOutlinedPlayCircleImage});
->>>>>>> design2code-generated-code
   background-repeat: no-repeat;
 `;
 export const Button5 = styled(GenericText)`

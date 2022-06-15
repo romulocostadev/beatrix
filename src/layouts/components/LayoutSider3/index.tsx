@@ -24,10 +24,6 @@ import {
   ButtonsButton14,
   Content11,
   IconOutlinedPlus,
-<<<<<<< HEAD
-=======
-  Button,
->>>>>>> design2code-generated-code
   TreeItem2,
   Frame12,
   IconOutlinedCaretDown2,
@@ -38,10 +34,6 @@ import {
   ButtonsButton15,
   Content12,
   IconOutlinedPlus1,
-<<<<<<< HEAD
-=======
-  Button,
->>>>>>> design2code-generated-code
 } from './styles';
 
 const LayoutSiderPage = () => {
