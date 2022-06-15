@@ -20,10 +20,7 @@ import {
   FileWrapper,
   PostgreSQL,
   VectorComponenticonoutlineddir1,
-  ButtonsButton16,
-  Content13,
-  IconOutlinedPlayCircle,
-  Button5,
+  ButtonsButton4,
   Divider7,
 } from './styles';
 
@@ -56,12 +53,7 @@ const LayoutHeaderPage = () => {
             <VectorComponenticonoutlineddir1 />
           </FileWrapper>
         </File>
-        <ButtonsButton16>
-          <Content13>
-            <IconOutlinedPlayCircle />
-            <Button5>Publish</Button5>
-          </Content13>
-        </ButtonsButton16>
+        <ButtonsButton4 type="primary">Publish</ButtonsButton4>
       </Header2>
       <Divider7 />
     </LayoutHeader2>

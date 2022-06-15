@@ -94,7 +94,7 @@ export const LearntousetheBeatrix = styled(GenericText)`
   width: 174px;
 `;
 
-export const ButtonsButton3 = styled(GenericCodeButton)`
+export const ButtonsButton5 = styled(GenericCodeButton)`
   position: static;
   width: 117px;
   height: 32px;
@@ -143,7 +143,7 @@ export const TextComponentconnect = styled(GenericText)`
   width: 228px;
 `;
 
-export const ButtonsButton4 = styled(GenericCodeButton)`
+export const ButtonsButton6 = styled(GenericCodeButton)`
   width: 143px;
   height: 32px;
   border-radius: 2px;
@@ -193,7 +193,7 @@ export const TextComponentstart = styled(GenericText)`
   width: 232px;
 `;
 
-export const ButtonsButton5 = styled(GenericCodeButton)`
+export const ButtonsButton7 = styled(GenericCodeButton)`
   width: 102px;
   height: 32px;
   border-radius: 2px;

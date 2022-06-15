@@ -8,23 +8,23 @@ import GenericInput from '../../components/Input';
 import {
   RecoveryPassword,
   Login3,
-  Content8,
+  Content7,
   Title2,
   Recoveringyourpassword,
   ViceriForm2,
   Actions4,
-  ButtonsButton1,
+  ButtonsButton2,
   CreateaAccount2,
-  Content9,
+  Content8,
   Logo2,
   Vector14840549090882,
   Text3,
   TextComponentdid,
   Wererelievedtohearthat,
   Actions5,
-  ButtonsButton13,
-  Content10,
-  Button4,
+  ButtonsButton14,
+  Content9,
+  Button3,
 } from './styles';
 
 const RecoveryPasswordPage = () => {
@@ -37,7 +37,7 @@ const RecoveryPasswordPage = () => {
   return (
     <RecoveryPassword>
       <Login3>
-        <Content8>
+        <Content7>
           <Title2>
             <Recoveringyourpassword>
               Recovering your password
@@ -52,12 +52,12 @@ const RecoveryPasswordPage = () => {
             </GenericFormItem>
           </ViceriForm2>
           <Actions4>
-            <ButtonsButton1 type="primary">Recovery</ButtonsButton1>
+            <ButtonsButton2 type="primary">Recovery</ButtonsButton2>
           </Actions4>
-        </Content8>
+        </Content7>
       </Login3>
       <CreateaAccount2>
-        <Content9>
+        <Content8>
           <Logo2>
             <Vector14840549090882 />
           </Logo2>
@@ -68,13 +68,13 @@ const RecoveryPasswordPage = () => {
             </Wererelievedtohearthat>
           </Text3>
           <Actions5>
-            <ButtonsButton13>
-              <Content10>
-                <Button4>Login</Button4>
-              </Content10>
-            </ButtonsButton13>
+            <ButtonsButton14>
+              <Content9>
+                <Button3>Login</Button3>
+              </Content9>
+            </ButtonsButton14>
           </Actions5>
-        </Content9>
+        </Content8>
       </CreateaAccount2>
     </RecoveryPassword>
   );

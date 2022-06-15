@@ -18,13 +18,13 @@ import {
   VectorComponentundrawprototyp,
   ConnectFigma,
   TextComponentconnect,
-  ButtonsButton4,
+  ButtonsButton6,
   InputCard,
   CardVector2,
   Undrawdatainputfxv21,
   Datainput,
   TextComponentstart,
-  ButtonsButton5,
+  ButtonsButton7,
 } from './styles';
 
 const ApplicationContentPage = () => {
@@ -51,7 +51,7 @@ const ApplicationContentPage = () => {
           <TextComponentconnect>
             Connect to your Figma account.
           </TextComponentconnect>
-          <ButtonsButton4 type="primary">Connect to Figma</ButtonsButton4>
+          <ButtonsButton6 type="primary">Connect to Figma</ButtonsButton6>
         </FigmaCard>
         <InputCard>
           <CardVector2>
@@ -61,7 +61,7 @@ const ApplicationContentPage = () => {
           <TextComponentstart>
             Start a solution by entering data.
           </TextComponentstart>
-          <ButtonsButton5 type="primary">Get started</ButtonsButton5>
+          <ButtonsButton7 type="primary">Get started</ButtonsButton7>
         </InputCard>
       </Cards>
     </ApplicationContent>

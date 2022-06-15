@@ -13,23 +13,21 @@ import {
   Welcomeback,
   ViceriForm,
   Actions,
-  ButtonsButton9,
+  ButtonsButton11,
   Content1,
   Button,
-  ButtonsButton10,
-  Content2,
-  Button1,
+  ButtonsButton,
   CreateaAccount,
-  Content3,
+  Content2,
   Logo,
   Vector1484054909088,
   Text1,
   Comecreatethefuture,
   TextComponentjoin,
   Actions1,
-  ButtonsButton11,
-  Content4,
-  Button2,
+  ButtonsButton12,
+  Content3,
+  Button1,
 } from './styles';
 
 const LoginPage = () => {
@@ -61,21 +59,17 @@ const LoginPage = () => {
             </GenericFormItem>
           </ViceriForm>
           <Actions>
-            <ButtonsButton9>
+            <ButtonsButton11>
               <Content1>
                 <Button>Recovery Password</Button>
               </Content1>
-            </ButtonsButton9>
-            <ButtonsButton10>
-              <Content2>
-                <Button1>Login</Button1>
-              </Content2>
-            </ButtonsButton10>
+            </ButtonsButton11>
+            <ButtonsButton type="primary">Login</ButtonsButton>
           </Actions>
         </Content>
       </Login1>
       <CreateaAccount>
-        <Content3>
+        <Content2>
           <Logo>
             <Vector1484054909088 />
           </Logo>
@@ -86,13 +80,13 @@ const LoginPage = () => {
             </TextComponentjoin>
           </Text1>
           <Actions1>
-            <ButtonsButton11>
-              <Content4>
-                <Button2>Create</Button2>
-              </Content4>
-            </ButtonsButton11>
+            <ButtonsButton12>
+              <Content3>
+                <Button1>Create</Button1>
+              </Content3>
+            </ButtonsButton12>
           </Actions1>
-        </Content3>
+        </Content2>
       </CreateaAccount>
     </Login>
   );

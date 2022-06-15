@@ -25,7 +25,7 @@ export const Login2 = styled.div`
   padding: 48px;
   background-color: #ffffff;
 `;
-export const Content5 = styled.div`
+export const Content4 = styled.div`
   height: 244px;
   width: 304px;
   display: flex;
@@ -67,7 +67,7 @@ export const Actions2 = styled.div`
   justify-content: flex-end;
   align-items: flex-start;
 `;
-export const ButtonsButton = styled(GenericCodeButton)`
+export const ButtonsButton1 = styled(GenericCodeButton)`
   width: 73px;
   height: 32px;
   border-radius: 2px;
@@ -84,7 +84,7 @@ export const CreateaAccount1 = styled.div`
   padding: 48px 48px 158px 48px;
   background-color: #f7f1ff;
 `;
-export const Content6 = styled.div`
+export const Content5 = styled.div`
   height: 182px;
   width: 304px;
   display: flex;
@@ -141,7 +141,7 @@ export const Actions3 = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
 `;
-export const ButtonsButton12 = styled.div`
+export const ButtonsButton13 = styled.div`
   height: 32px;
   width: 67px;
   display: flex;
@@ -154,7 +154,7 @@ export const ButtonsButton12 = styled.div`
   padding: 5px 16px 5px 16px;
   background-color: #7447f9;
 `;
-export const Content7 = styled.div`
+export const Content6 = styled.div`
   height: 22px;
   width: 35px;
   display: flex;
@@ -163,7 +163,7 @@ export const Content7 = styled.div`
   justify-content: flex-start;
   align-items: center;
 `;
-export const Button3 = styled(GenericText)`
+export const Button2 = styled(GenericText)`
   font-weight: 400;
   font-size: 14px;
   color: #ffffff;

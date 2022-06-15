@@ -97,7 +97,7 @@ export const Database = styled(GenericText)`
   width: 153px;
 `;
 
-export const ButtonsButton2 = styled(GenericCodeButton)`
+export const ButtonsButton3 = styled(GenericCodeButton)`
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -163,7 +163,7 @@ export const Database1 = styled(GenericText)`
   width: 137px;
 `;
 
-export const ButtonsButton14 = styled.div`
+export const ButtonsButton15 = styled.div`
   height: 16px;
   width: 16px;
   display: flex;
@@ -174,7 +174,7 @@ export const ButtonsButton14 = styled.div`
   align-items: center;
   border-radius: 2px;
 `;
-export const Content11 = styled.div`
+export const Content10 = styled.div`
   height: 16px;
   width: 16px;
   display: flex;
@@ -249,7 +249,7 @@ export const Database2 = styled(GenericText)`
   width: 137px;
 `;
 
-export const ButtonsButton15 = styled.div`
+export const ButtonsButton16 = styled.div`
   height: 16px;
   width: 16px;
   display: flex;
@@ -260,7 +260,7 @@ export const ButtonsButton15 = styled.div`
   align-items: center;
   border-radius: 2px;
 `;
-export const Content12 = styled.div`
+export const Content11 = styled.div`
   height: 16px;
   width: 16px;
   display: flex;

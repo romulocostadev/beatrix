@@ -56,7 +56,7 @@ export const Asolutionneedsainstance = styled(GenericText)`
   width: 202px;
 `;
 
-export const ButtonsButton3 = styled(GenericCodeButton)`
+export const ButtonsButton5 = styled(GenericCodeButton)`
   position: static;
   width: 117px;
   height: 32px;

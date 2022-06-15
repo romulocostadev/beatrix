@@ -8,15 +8,15 @@ import {
   Bar,
   Logo3,
   Frame9,
-  ButtonsButton6,
+  ButtonsButton8,
   Stage,
   Creatingdata,
   Howtocreateadataworkflow,
-  ButtonsButton7,
+  ButtonsButton9,
   Solutions1,
   Title4,
   Solutions,
-  ButtonsButton8,
+  ButtonsButton10,
   Sorter,
   Sortby,
   Name,
@@ -45,7 +45,7 @@ const Content01Page = () => {
               <Frame9 />
             </Logo3>
           </Bar>
-          <ButtonsButton6 type="link">Start lesson</ButtonsButton6>
+          <ButtonsButton8 type="link">Start lesson</ButtonsButton8>
         </Lessons2>
         <Stage>
           <Creatingdata>Creating data</Creatingdata>
@@ -53,12 +53,12 @@ const Content01Page = () => {
             How to create a data workflow.
           </Howtocreateadataworkflow>
         </Stage>
-        <ButtonsButton7 type="link">View all lessons</ButtonsButton7>
+        <ButtonsButton9 type="link">View all lessons</ButtonsButton9>
       </LessonsCard1>
       <Solutions1>
         <Title4>
           <Solutions>Solutions</Solutions>
-          <ButtonsButton8 type="primary">New solution</ButtonsButton8>
+          <ButtonsButton10 type="primary">New solution</ButtonsButton10>
         </Title4>
         <Sorter>
           <Sortby>Sort by</Sortby>

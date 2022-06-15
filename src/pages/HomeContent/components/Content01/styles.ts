@@ -66,14 +66,16 @@ export const Logo3 = styled.div`
 export const Frame9 = styled.div`
   height: 16px;
   width: 478px;
-  position: inherit;
+  left: 0px;
+  top: 0px;
+  position: absolute;
   box-sizing: border-box;
   border-radius: 12px;
   background-color: #7447f9;
   background: url(${Frame9Image});
   background-repeat: no-repeat;
 `;
-export const ButtonsButton6 = styled(GenericCodeButton)`
+export const ButtonsButton8 = styled(GenericCodeButton)`
   width: 76px;
   height: 22px;
   border-radius: 2px;
@@ -103,7 +105,7 @@ export const Howtocreateadataworkflow = styled(GenericText)`
   width: 1060px;
 `;
 
-export const ButtonsButton7 = styled(GenericCodeButton)`
+export const ButtonsButton9 = styled(GenericCodeButton)`
   width: 100px;
   height: 22px;
   border-radius: 2px;
@@ -135,7 +137,7 @@ export const Solutions = styled(GenericText)`
   width: 128px;
 `;
 
-export const ButtonsButton8 = styled(GenericCodeButton)`
+export const ButtonsButton10 = styled(GenericCodeButton)`
   width: 114px;
   height: 32px;
   border-radius: 2px;

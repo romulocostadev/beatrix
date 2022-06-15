@@ -13,7 +13,7 @@ import {
   IconOutlinedFolderOpen,
   ItemWrapper,
   Database,
-  ButtonsButton2,
+  ButtonsButton3,
   TreeItem1,
   Frame11,
   IconOutlinedCaretDown1,
@@ -21,8 +21,8 @@ import {
   IconOutlinedFolderOpen1,
   ItemWrapper1,
   Database1,
-  ButtonsButton14,
-  Content11,
+  ButtonsButton15,
+  Content10,
   IconOutlinedPlus,
   TreeItem2,
   Frame12,
@@ -31,8 +31,8 @@ import {
   IconOutlinedFolderOpen2,
   ItemWrapper2,
   Database2,
-  ButtonsButton15,
-  Content12,
+  ButtonsButton16,
+  Content11,
   IconOutlinedPlus1,
 } from './styles';
 
@@ -51,7 +51,7 @@ const LayoutSiderPage = () => {
             <ItemWrapper>
               <Database>SunChemical</Database>
             </ItemWrapper>
-            <ButtonsButton2 type="text" icon={<PlusOutlined />} />
+            <ButtonsButton3 type="text" icon={<PlusOutlined />} />
           </TreeItem>
           <TreeItem1>
             <Frame11>
@@ -63,11 +63,11 @@ const LayoutSiderPage = () => {
             <ItemWrapper1>
               <Database1>Database</Database1>
             </ItemWrapper1>
-            <ButtonsButton14>
-              <Content11>
+            <ButtonsButton15>
+              <Content10>
                 <IconOutlinedPlus />
-              </Content11>
-            </ButtonsButton14>
+              </Content10>
+            </ButtonsButton15>
           </TreeItem1>
           <TreeItem2>
             <Frame12>
@@ -79,11 +79,11 @@ const LayoutSiderPage = () => {
             <ItemWrapper2>
               <Database2>Services</Database2>
             </ItemWrapper2>
-            <ButtonsButton15>
-              <Content12>
+            <ButtonsButton16>
+              <Content11>
                 <IconOutlinedPlus1 />
-              </Content12>
-            </ButtonsButton15>
+              </Content11>
+            </ButtonsButton16>
           </TreeItem2>
         </Layers>
       </MenuGroup1>

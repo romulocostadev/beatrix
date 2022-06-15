@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { Form } from 'antd';
+import GenericCodeButton from '../../components/Button';
 import Vector1484054909088Image from './assets/1521_130435.png';
 import GenericText from '../../components/Text';
 
@@ -66,7 +67,7 @@ export const Actions = styled.div`
   justify-content: space-between;
   align-items: flex-start;
 `;
-export const ButtonsButton9 = styled.div`
+export const ButtonsButton11 = styled.div`
   height: 22px;
   width: 123px;
   display: flex;
@@ -94,34 +95,11 @@ export const Button = styled(GenericText)`
   width: 124px;
 `;
 
-export const ButtonsButton10 = styled.div`
-  height: 32px;
+export const ButtonsButton = styled(GenericCodeButton)`
   width: 67px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  gap: 8px;
-  justify-content: flex-start;
-  align-items: center;
+  height: 32px;
   border-radius: 2px;
-  padding: 5px 16px 5px 16px;
-  background-color: #7447f9;
-`;
-export const Content2 = styled.div`
-  height: 22px;
-  width: 35px;
-  display: flex;
-  box-sizing: border-box;
-  gap: 8px;
-  justify-content: flex-start;
-  align-items: center;
-`;
-export const Button1 = styled(GenericText)`
-  font-weight: 400;
-  font-size: 14px;
-  color: #ffffff;
-  margin: 0px;
-  width: 36px;
+  height: 32px;
 `;
 
 export const CreateaAccount = styled.div`
@@ -134,7 +112,7 @@ export const CreateaAccount = styled.div`
   padding: 48px 48px 158px 48px;
   background-color: #f7f1ff;
 `;
-export const Content3 = styled.div`
+export const Content2 = styled.div`
   height: 182px;
   width: 304px;
   display: flex;
@@ -191,7 +169,7 @@ export const Actions1 = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
 `;
-export const ButtonsButton11 = styled.div`
+export const ButtonsButton12 = styled.div`
   height: 32px;
   width: 73px;
   display: flex;
@@ -204,7 +182,7 @@ export const ButtonsButton11 = styled.div`
   padding: 5px 16px 5px 16px;
   background-color: #7447f9;
 `;
-export const Content4 = styled.div`
+export const Content3 = styled.div`
   height: 22px;
   width: 41px;
   display: flex;
@@ -213,7 +191,7 @@ export const Content4 = styled.div`
   justify-content: flex-start;
   align-items: center;
 `;
-export const Button2 = styled(GenericText)`
+export const Button1 = styled(GenericText)`
   font-weight: 400;
   font-size: 14px;
   color: #ffffff;

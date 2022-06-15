@@ -8,23 +8,23 @@ import GenericInput from '../../components/Input';
 import {
   CreateAccount,
   Login2,
-  Content5,
+  Content4,
   Title1,
   TextComponentcreating,
   ViceriForm1,
   Actions2,
-  ButtonsButton,
+  ButtonsButton1,
   CreateaAccount1,
-  Content6,
+  Content5,
   Logo1,
   Vector14840549090881,
   Text2,
   Alreadyhaveanaccount,
   Wearewaitingforyou,
   Actions3,
-  ButtonsButton12,
-  Content7,
-  Button3,
+  ButtonsButton13,
+  Content6,
+  Button2,
 } from './styles';
 
 const CreateAccountPage = () => {
@@ -37,7 +37,7 @@ const CreateAccountPage = () => {
   return (
     <CreateAccount>
       <Login2>
-        <Content5>
+        <Content4>
           <Title1>
             <TextComponentcreating>
               Creating an account to the future!
@@ -64,12 +64,12 @@ const CreateAccountPage = () => {
             </GenericFormItem>
           </ViceriForm1>
           <Actions2>
-            <ButtonsButton type="primary">Create</ButtonsButton>
+            <ButtonsButton1 type="primary">Create</ButtonsButton1>
           </Actions2>
-        </Content5>
+        </Content4>
       </Login2>
       <CreateaAccount1>
-        <Content6>
+        <Content5>
           <Logo1>
             <Vector14840549090881 />
           </Logo1>
@@ -80,13 +80,13 @@ const CreateAccountPage = () => {
             <Wearewaitingforyou>We are waiting for you.</Wearewaitingforyou>
           </Text2>
           <Actions3>
-            <ButtonsButton12>
-              <Content7>
-                <Button3>Login</Button3>
-              </Content7>
-            </ButtonsButton12>
+            <ButtonsButton13>
+              <Content6>
+                <Button2>Login</Button2>
+              </Content6>
+            </ButtonsButton13>
           </Actions3>
-        </Content6>
+        </Content5>
       </CreateaAccount1>
     </CreateAccount>
   );

@@ -6,6 +6,7 @@ import VectorImage from './assets/I1702_161585_962_111298.png';
 import Vector1Image from './assets/I1702_161585_962_111299.png';
 import Vector2Image from './assets/I1702_161585_962_111300.png';
 import VectorComponenticonoutlineddir1Image from './assets/1702_161588.png';
+import GenericCodeButton from '../../../components/Button';
 import GenericText from '../../../components/Text';
 
 export const LayoutHeader2 = styled.div`
@@ -176,39 +177,11 @@ export const VectorComponenticonoutlineddir1 = styled.div`
   background: url(${VectorComponenticonoutlineddir1Image});
   background-repeat: no-repeat;
 `;
-export const ButtonsButton16 = styled.div`
-  height: 32px;
+export const ButtonsButton4 = styled(GenericCodeButton)`
   width: 79px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  gap: 8px;
-  justify-content: flex-start;
-  align-items: center;
+  height: 32px;
   border-radius: 2px;
-  padding: 5px 16px 5px 16px;
-  background-color: #7447f9;
-`;
-export const Content13 = styled.div`
-  height: 22px;
-  width: 47px;
-  display: flex;
-  box-sizing: border-box;
-  gap: 8px;
-  justify-content: flex-start;
-  align-items: center;
-`;
-export const IconOutlinedPlayCircle = styled.div`
-  height: 16px;
-  width: 16px;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-`;
-export const Button5 = styled(GenericText)`
-  font-size: 14px;
-  color: #ffffff;
-  margin: 0px;
-  width: 48px;
+  height: 32px;
 `;
 
 export const Divider7 = styled.div`
