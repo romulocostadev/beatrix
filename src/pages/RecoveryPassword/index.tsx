@@ -9,7 +9,7 @@ import {
   RecoveryPassword,
   Login3,
   Content8,
-  Title1,
+  Title2,
   Recoveringyourpassword,
   ViceriForm2,
   Actions4,
@@ -38,11 +38,11 @@ const RecoveryPasswordPage = () => {
     <RecoveryPassword>
       <Login3>
         <Content8>
-          <Title1>
+          <Title2>
             <Recoveringyourpassword>
               Recovering your password
             </Recoveringyourpassword>
-          </Title1>
+          </Title2>
           <ViceriForm2 onClick={navigateToLogin}>
             <GenericFormItem
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}

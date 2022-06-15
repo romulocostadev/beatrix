@@ -9,7 +9,7 @@ import {
   CreateAccount,
   Login2,
   Content5,
-  Title,
+  Title1,
   TextComponentcreating,
   ViceriForm1,
   Actions2,
@@ -38,11 +38,11 @@ const CreateAccountPage = () => {
     <CreateAccount>
       <Login2>
         <Content5>
-          <Title>
+          <Title1>
             <TextComponentcreating>
               Creating an account to the future!
             </TextComponentcreating>
-          </Title>
+          </Title1>
           <ViceriForm1 onClick={navigateToLogin}>
             <GenericFormItem
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}

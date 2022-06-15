@@ -35,7 +35,7 @@ export const Content5 = styled.div`
   justify-content: flex-start;
   align-items: center;
 `;
-export const Title = styled.div`
+export const Title1 = styled.div`
   height: 24px;
   width: 304px;
   display: flex;
