@@ -9,6 +9,8 @@ import {
   Login,
   Login1,
   Content,
+  Title,
+  Welcomeback,
   ViceriForm,
   Actions,
   ButtonsButton2,
@@ -41,6 +43,9 @@ const LoginPage = () => {
     <Login>
       <Login1>
         <Content>
+          <Title>
+            <Welcomeback>Welcome back!</Welcomeback>
+          </Title>
           <ViceriForm layout="vertical" onClick={navigateToLogin}>
             <GenericFormItem
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
@@ -52,18 +57,13 @@ const LoginPage = () => {
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
               name="email"
             >
-              <div>romulo</div>
               <GenericInput placeholder="E-mail" />
             </GenericFormItem>
             <GenericFormItem
               label={<Typography.Text ellipsis>E-mail</Typography.Text>}
               name="email"
             >
-              <div>romulo2</div>
               <GenericInput placeholder="E-mail" />
-              <div>romulo3</div>
-              <div>romulo4</div>
-              <div>romulo5</div>
             </GenericFormItem>
           </ViceriForm>
           <Actions>
@@ -95,7 +95,6 @@ const LoginPage = () => {
             <ButtonsButton4>
               <Content4>
                 <Button2>Create</Button2>
-                <div>romulo6</div>
               </Content4>
             </ButtonsButton4>
           </Actions1>

@@ -25,7 +25,7 @@ export const Login1 = styled.div`
   background-color: #ffffff;
 `;
 export const Content = styled.div`
-  height: 152px;
+  height: 244px;
   width: 304px;
   display: flex;
   flex-direction: column;
@@ -34,8 +34,23 @@ export const Content = styled.div`
   justify-content: flex-start;
   align-items: center;
 `;
+export const Title = styled.div`
+  height: 24px;
+  width: 304px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: flex-start;
+`;
+export const Welcomeback = styled(GenericText)`
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0px;
+  width: 110px;
+`;
+
 export const ViceriForm = styled(Form)`
-  height: 112px;
+  height: 172px;
   width: 304px;
   display: flex;
   flex-direction: column;
