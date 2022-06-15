@@ -15,9 +15,7 @@ export const DataCanvas = styled.div`
 export const CardCreatingAStructure = styled.div`
   height: 402px;
   width: 322px;
-  left: 552px;
-  top: 24px;
-  position: absolute;
+  position: inherit;
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.1);
