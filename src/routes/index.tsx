@@ -1,18 +1,32 @@
-import { Routes, Route } from 'react-router-dom';
-import RouteLogin from '../layouts/RouteLogin';
-import Login from '../pages/Login';
-import CreateAccount from '../pages/CreateAccount';
-import RecoveryPassword from '../pages/RecoveryPassword';
-
+import React from 'react' 
+import { Routes, Route } from 'react-router-dom'
+import Suspense from './components/Suspense' 
+import * as CONSTANTS from  './constants' 
+const Home = React.lazy(() => import('../../src/pages/Home'));
+const Login = React.lazy(() => import('../../src/pages/Login'));
+const Welcome = React.lazy(() => import('../../src/pages/Welcome'));
 const IndexRoutes = () => (
-  <Routes>
-    <Route path="" element={<RouteLogin />} />
-    <Route path="/route-login" element={<RouteLogin />}>
-      <Route index element={<Login />} />
-      <Route path="login" element={<Login />} />
-      <Route path="create-account" element={<CreateAccount />} />
-    </Route>
-    <Route path="recovery-password" element={<RecoveryPassword />} />
-  </Routes>
+<Routes>
+<Route  path='' element={
+                    <Suspense>
+                        <Home/>
+                    </Suspense>
+                    } />
+<Route  path={CONSTANTS.HOME} element={
+                    <Suspense>
+                        <Home/>
+                    </Suspense>
+                    } />
+<Route  path={CONSTANTS.LOGIN} element={
+                    <Suspense>
+                        <Login/>
+                    </Suspense>
+                    } />
+<Route  path={CONSTANTS.WELCOME} element={
+                    <Suspense>
+                        <Welcome/>
+                    </Suspense>
+                    } />
+</Routes>
 );
 export default IndexRoutes;

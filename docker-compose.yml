@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  portal.bea.internal:
+    container_name: sun-chemical-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '3001:3000'

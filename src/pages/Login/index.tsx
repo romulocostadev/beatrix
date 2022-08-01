@@ -1,101 +1,117 @@
 import React from 'react';
 
-import { useNavigate } from 'react-router-dom';
 import { Typography } from 'antd';
-import GenericFormItem from '../../components/FormItem';
-import GenericInput from '../../components/Input';
+
 
 import {
-  Login,
-  Login1,
-  Content,
-  Title,
-  Welcomeback,
-  ViceriForm,
-  Actions,
-  ButtonsButton2,
-  Content1,
-  Button,
-  ButtonsButton3,
-  Content2,
-  Button1,
-  CreateaAccount,
-  Content3,
-  Logo,
-  Vector1484054909088,
-  Text1,
-  Comecreatethefuture,
-  TextComponentjoin,
-  Actions1,
-  ButtonsButton4,
-  Content4,
-  Button2,
+Login,
+Login1,
+Login2,
+Content3,
+Title1,
+Welcomeback,
+ViceriForm,
+InputFormItem,
+InputBasic,
+InputFormItem1,
+InputPassword,
+Actions,
+ButtonsButton1,
+ButtonsButton2,
+CreateaAccount,
+Content4,
+Logo5,
+Unmaped14840549090881,
+Text,
+Comecreatethefuture,
+TextComponentjoin,
+Actions1,
+ButtonsButton5,
+Content5,
+Button8,
 } from './styles';
 
 const LoginPage = () => {
-  let navigate = useNavigate();
 
-  const navigateToLogin = () => {
-    navigate('/login');
-  };
 
-  return (
-    <Login>
-      <Login1>
-        <Content>
-          <Title>
-            <Welcomeback>Welcome back!</Welcomeback>
-          </Title>
-          <ViceriForm layout="vertical" onClick={navigateToLogin}>
-            <GenericFormItem
-              label={<Typography.Text ellipsis>E-mail</Typography.Text>}
-              name="email"
+
+
+
+
+
+
+
+return (
+        <Login    >
+  <Login1    >
+    <Login2    >
+      <Content3    >
+        <Title1    >
+          <Welcomeback >
+            Welcome back!
+          </Welcomeback>
+        </Title1>
+        <ViceriForm  layout='vertical'  >
+          <InputFormItem
+          label={<Typography.Text ellipsis>E-mail</Typography.Text>}
+          name='email'
+          >
+            <InputBasic
+        placeholder='E-mail'
+            />
+          </InputFormItem>
+          <InputFormItem1
+          label={<Typography.Text ellipsis>Password</Typography.Text>}
+          name='password'
+          >
+            <InputPassword
+        placeholder='Password'
+            />
+          </InputFormItem1>
+        </ViceriForm>
+        <Actions    >
+          <ButtonsButton1  
+            type='link'
             >
-              <GenericInput placeholder="E-mail" />
-            </GenericFormItem>
-            <GenericFormItem
-              label={<Typography.Text ellipsis>E-mail</Typography.Text>}
-              name="email"
+              Recovery Password
+          </ButtonsButton1>
+          <ButtonsButton2  
+            type='primary'
             >
-              <GenericInput placeholder="E-mail" />
-            </GenericFormItem>
-          </ViceriForm>
-          <Actions>
-            <ButtonsButton2>
-              <Content1>
-                <Button>Recovery Password</Button>
-              </Content1>
-            </ButtonsButton2>
-            <ButtonsButton3>
-              <Content2>
-                <Button1>Login</Button1>
-              </Content2>
-            </ButtonsButton3>
-          </Actions>
-        </Content>
-      </Login1>
-      <CreateaAccount>
-        <Content3>
-          <Logo>
-            <Vector1484054909088 />
-          </Logo>
-          <Text1>
-            <Comecreatethefuture>Come create the future!</Comecreatethefuture>
-            <TextComponentjoin>
-              Join us creating your account.
-            </TextComponentjoin>
-          </Text1>
-          <Actions1>
-            <ButtonsButton4>
-              <Content4>
-                <Button2>Create</Button2>
-              </Content4>
-            </ButtonsButton4>
-          </Actions1>
-        </Content3>
-      </CreateaAccount>
-    </Login>
-  );
-};
+              Login
+          </ButtonsButton2>
+        </Actions>
+      </Content3>
+    </Login2>
+    <CreateaAccount    >
+      <Content4    >
+        <Logo5    >
+          <Unmaped14840549090881/>
+        </Logo5>
+        <Text    >
+          <Comecreatethefuture >
+            Come create the future!
+          </Comecreatethefuture>
+          <TextComponentjoin >
+            Join us creating your account.
+          </TextComponentjoin>
+        </Text>
+        <Actions1    >
+          <ButtonsButton5    >
+            <Content5    >
+              <Button8 >
+                Create
+              </Button8>
+            </Content5>
+          </ButtonsButton5>
+        </Actions1>
+      </Content4>
+    </CreateaAccount>
+  </Login1>
+</Login>
 
-export default LoginPage;
+    )
+
+}
+
+export default LoginPage
